@@ -16,44 +16,48 @@ msgstr ""
 
 #: accounts/forms.py:56
 msgid "Invalid captcha"
-msgstr ""
+msgstr "Ungültiges CAPTCHA"
 
 #: accounts/forms.py:82
 msgid "Verify"
-msgstr ""
+msgstr "Überprüfen"
 
 #: accounts/forms.py:87
 msgid ""
 "That e-mail address doesn't have an associated user account or the account "
 "has not been activated yet. Are you sure you've registered?"
 msgstr ""
+"Dieser e-Mailadresse ist kein Benutzerkonto zugeordnet oder das Konto wurde "
+"bislang noch nicht aktiviert. Haben Sie sich wirklich schon registriert?"
 
 #: accounts/forms.py:89
 msgid ""
 "The user account associated with this e-mail address cannot reset the "
 "password."
 msgstr ""
+"Für das Benutzerkonto, dem diese E-Mailadresse zugeordnet ist, konnte das "
+"Kennwort nicht zurückgesetzt werden."
 
 #: accounts/management/commands/idle_accounts.py:59
 #, python-format
 msgid "%sIdle Account Notification"
-msgstr ""
+msgstr "%sBenachrichtigung über ungenutzte Konten"
 
 #: accounts/views.py:46
 #, python-format
 msgid "%sUser account activated"
-msgstr ""
+msgstr "%sBenutzerkonto wurde aktiviert"
 
 #: apply/forms.py:147 ganeti/forms.py:51
 msgid "A fully qualified domain name, e.g. host.domain.com"
-msgstr ""
+msgstr "Ein vollständiger Hostname (FQDN), z.Bsp. host.domain.com"
 
 #: apply/forms.py:149 ganeti/forms.py:53
 #: templates/apply/application_list.html:39
 #: templates/apply/application_list.html:67
 #: templates/clusters/clusters.html:52
 msgid "Hostname"
-msgstr ""
+msgstr "Hostname"
 
 #: apply/forms.py:152 templates/apply/application_list.html:41
 #: templates/apply/application_list.html:69
@@ -63,268 +67,289 @@ msgstr ""
 #: templates/stats/statistics.html:294 templates/stats/statistics.html:295
 #: templates/users/user_info.html:367
 msgid "Memory"
-msgstr ""
+msgstr "Arbeitsspeicher"
 
 #: apply/forms.py:164 apply/forms.py:285
 msgid "Disk size (GB)"
-msgstr ""
+msgstr "Festplattengröße (GB)"
 
 #: apply/forms.py:165
 msgid "Specify a size from 2 to 50 GB"
-msgstr ""
+msgstr "Geben Sie eine Größe zwischen 2 und 50 GB an"
 
 #: apply/forms.py:170
 msgid "Check this option if  the virtual machine will be sending e-mail"
 msgstr ""
+"Markieren Sie diese Option, wenn die virtuelle Maschine e-Mails verschicken "
+"wird"
 
 #: apply/forms.py:172
 msgid "Hosts mail server"
-msgstr ""
+msgstr "Beherbergt einen e-Mail DIenst (SMTP)"
 
 #: apply/forms.py:177
 msgid "Organization"
-msgstr ""
+msgstr "Organisation"
 
 #: apply/forms.py:180
 msgid "Operating System"
-msgstr ""
+msgstr "Betriebssystem"
 
 #: apply/forms.py:199 apply/forms.py:342 ganeti/forms.py:67
 #, python-format
 msgid "Invalid hostname %s"
-msgstr ""
+msgstr "Ungültiger Hostname %s"
 
 #: apply/forms.py:203 apply/forms.py:346 ganeti/forms.py:71
 msgid ""
 "Hostname should be fully qualified, e.g. <em>host.domain.com</em>, not "
 "<em>host</em>"
 msgstr ""
+"Der Hostname sollte ein vollständiger DNS-Name (FQDN) sein, z.Bsp. <em>host."
+"domain.com</em>, und nicht nur <em>host</em>."
 
 #: apply/forms.py:213 apply/forms.py:353 ganeti/forms.py:78
 msgid "Hostname already exists."
-msgstr ""
+msgstr "Hostname existiert bereits"
 
 #: apply/forms.py:222
 msgid "Additional comments you would like the service administrators to see"
 msgstr ""
+"Zusätzliche Informationen, die für die Service-Administratoren sichtbar sein "
+"sollen."
 
 #: apply/forms.py:225 templates/apply/review.html:167
 #: templates/apply/review.html.py:368
 msgid "Comments"
-msgstr ""
+msgstr "Kommentare"
 
 #: apply/forms.py:253
 msgid "Choose either an organization or fill in the contact information"
 msgstr ""
+"Wählen Sie entweder eine Organisation aus oder hinterlassen Sie ihre "
+"Kontaktdaten."
 
 #: apply/forms.py:265
 msgid "Choose an organization"
-msgstr ""
+msgstr "Wählen Sie eine Organisation aus"
 
 #: apply/forms.py:276
 msgid "Please fill in the contact information"
-msgstr ""
+msgstr "Bitte hinterlassen Sie Ihre Kontaktdaten"
 
 #: apply/forms.py:326
 msgid "Please specify a reason for rejection"
-msgstr ""
+msgstr "Benennen Sie bitte den Ablehungsgrund"
 
 #: apply/forms.py:358
 msgid "Application already handled"
-msgstr ""
+msgstr "Anwendung wird bereits verwaltet"
 
 #: apply/forms.py:378
 msgid "Malformed SSH key, must be in OpenSSH format, RSA or DSA"
 msgstr ""
+"Ungültiger SSH-Schlüssel, der Schlüssel muss im openSSH-Format sein (RSA "
+"oder DSA)"
 
 #: apply/forms.py:391
 msgid "Malformed SSH key"
-msgstr ""
+msgstr "Ungültiger SSH-Schlüssel"
 
 #: apply/forms.py:397
 msgid "Invalid RSA SSH key"
-msgstr ""
+msgstr "Ungültiger RSA SSH-Schlüssel"
 
 #: apply/forms.py:402
 msgid "Invalid DSS SSH key"
-msgstr ""
+msgstr "Ungültiger DSS SSH-Schlüssel"
 
 #: apply/forms.py:404
 #, python-format
 msgid "Unknown key type '%s'"
-msgstr ""
+msgstr "Unbekannter Schlüsseltyp '%s'"
 
 #: apply/forms.py:412
 msgid "Email"
-msgstr ""
+msgstr "E-Mailadresse"
 
 #: apply/forms.py:413
 msgid "Email (verify)"
-msgstr ""
+msgstr "E-Mailadresse (bestätigen)"
 
 #: apply/forms.py:421
 msgid "Mail fields do not match."
-msgstr ""
+msgstr "Die E-Mailadressen stimmen nicht über ein."
 
 #: apply/forms.py:427 templates/clusters/cluster_nodes.html:37
 #: templates/instances/user_instances_json.html:45
 #: templates/users/user_info.html:365
 msgid "Name"
-msgstr ""
+msgstr "Nachname"
 
 #: apply/forms.py:433
 msgid "Surname"
-msgstr ""
+msgstr "Vorname"
 
 #: apply/models.py:80
 msgid "organization"
-msgstr ""
+msgstr "Organisation"
 
 #: apply/models.py:81
 msgid "organizations"
-msgstr ""
+msgstr "Organisationen"
 
 #: apply/models.py:93
 msgid "operating system"
-msgstr ""
+msgstr "Betriebssystem"
 
 #: apply/views/__init__.py:66 templates/apply/application_list.html:43
 #: templates/apply/application_list.html:71
 #: templates/instances/user_instances_json.html:59
 #: templates/users/user_info.html:376
 msgid "Network"
-msgstr ""
+msgstr "Netzwerk"
 
 #: apply/views/__init__.py:68
 msgid ""
 "Optionally, select a network to connect the virtualmachine to if you have a "
 "special requirement"
 msgstr ""
+"Optional können Sie hier ein Netzwerk auswählen, mit dem die virtuelle "
+"Maschinen verbunden werden soll."
 
 #: apply/views/__init__.py:127
 #, python-format
 msgid "Your request has been filed with id #%d and will be processed shortly."
 msgstr ""
+"Ihre Anfrage wurde unter der ID #%d entgegengenommen und wird in Kürze "
+"bearbeitet."
 
 #: apply/views/user.py:196
 #, python-format
 msgid "The following keys were skipped because they already exist:<br />%s"
 msgstr ""
+"Die folgenden Schlüssel wurden übersprungen, weil sie bereits vorhanden sind:"
+"<br />%s"
 
 #: ganeti/fields/jsonfield/fields.py:31 ganeti/fields/jsonfield/fields.py:43
 #: ganeti/fields/jsonfield/fields.py:81
 msgid "Enter valid JSON"
-msgstr ""
+msgstr "Gültiges JSON eingeben"
 
 #: ganeti/forms.py:36
 msgid "Type a username or group name"
-msgstr ""
+msgstr "Geben Sie einen Benutzername oder einen Gruppennamen ein"
 
 #: ganeti/forms.py:91
 msgid "Network adapter model"
-msgstr ""
+msgstr "Netzwerkadapter Modell"
 
 #: ganeti/forms.py:97
 msgid "Hard disk type"
-msgstr ""
+msgstr "Festplattentyp"
 
 #: ganeti/forms.py:102
 msgid "Boot device"
-msgstr ""
+msgstr "Systemstart von Gerät"
 
 #: ganeti/forms.py:106
 msgid "CD-ROM Drive"
-msgstr ""
+msgstr "CD-Rom Laufwerk"
 
 #: ganeti/forms.py:113
 msgid "ISO Image URL (http)"
-msgstr ""
+msgstr "URL für ISO-Abbild (http)"
 
 #: ganeti/forms.py:117
 msgid "Hardware clock uses local time instead of UTC"
-msgstr ""
+msgstr "Hardware-Uhr nutzt lokale Zeit anstatt von UTC"
 
 #: ganeti/forms.py:124
 msgid "Allow From"
-msgstr ""
+msgstr "Erlauben von"
 
 #: ganeti/forms.py:132
 msgid "Only HTTP URLs are allowed"
-msgstr ""
+msgstr "Nur HTTP-URLs sind erlaubt"
 
 #: ganeti/forms.py:144
 #, python-format
 msgid "%(url)s is not a valid URL"
-msgstr ""
+msgstr "%(url)s ist keine gültige URL"
 
 #: ganeti/forms.py:148
 msgid "Invalid URL"
-msgstr ""
+msgstr "Ungültige URL"
 
 #: ganeti/forms.py:159 ganeti/forms.py:165
 #, python-format
 msgid "Currently no prefix lengths < %s are allowed"
-msgstr ""
+msgstr "Zur Zeit ist eine Präfixlänge < %s nicht zulässig"
 
 #: ganeti/forms.py:173
 #, python-format
 msgid "%(address)s is not a valid address"
-msgstr ""
+msgstr "%(address)s ist keine gültige Adresse"
 
 #: ganeti/models.py:300
 msgid "modifying"
-msgstr ""
+msgstr "Änderungen anwenden"
 
 #: ganeti/models.py:1043
 msgid "creating"
-msgstr ""
+msgstr "erstellen"
 
 #: ganeti/utils.py:270
 msgid "Not allowed action"
-msgstr ""
+msgstr "Keine zulässige Aktion"
 
+# Context: Instance %(action)s requested: %(instance)s
 #: ganeti/utils.py:306
 msgid "re-installation"
-msgstr ""
+msgstr "Neu-Installation"
 
+# Context: Instance %(action)s requested: %(instance)s
 #: ganeti/utils.py:308
 msgid "destruction"
-msgstr ""
+msgstr "Löschen"
 
+# Context: Instance %(action)s requested: %(instance)s
 #: ganeti/utils.py:310
 msgid "rename"
-msgstr ""
+msgstr "Umbenennen"
 
 #: ganeti/utils.py:313
 #, python-format
 msgid "%(pref)sInstance %(action)s requested: %(instance)s"
-msgstr ""
+msgstr "%(pref)s%(action)s von Instanz angefordert: '%(instance)s"
 
 #: ganeti/utils.py:326
 msgid "Could not send email"
-msgstr ""
+msgstr "E-Mail konnte nicht versendet werden"
 
 #: ganeti/utils.py:328
 msgid "Mail sent"
-msgstr ""
+msgstr "E-Mail wurde versendet"
 
 #: ganeti/views/instances.py:77 ganeti/views/instances.py:170
 msgid ""
 "Permissions' violation. This action has been logged and our admins will be "
 "notified about it"
 msgstr ""
+"Rechteverletzung. Diese Aktion wurde protokolliert, unsere Administratoren "
+"wurden bereits darüber in Kenntnis gesetzt."
 
 #: ganeti/views/instances.py:354
 msgid "Please wait... shutting-down"
-msgstr ""
+msgstr "Bitte warten... fahre herunter"
 
 #: ganeti/views/instances.py:369
 msgid "Please wait... starting-up"
-msgstr ""
+msgstr "Bitte warten... fahre hoch"
 
 #: ganeti/views/instances.py:386
 msgid "Please wait... rebooting"
-msgstr ""
+msgstr "Bitte warten... starte neu"
 
 #: middleware/UserMessages.py:53
 #, python-format
@@ -332,40 +357,45 @@ msgid ""
 "Welcome! Please take some time to update <a href=\"%s\">your profile</a> and "
 "upload your SSH keys."
 msgstr ""
+"Willkommen! Bitte nehmen Sie sich Zeit, <a href=\"%s\">Ihr Profile</a> und "
+"Ihre SSH-Schlüssel zu bearbeiten."
 
 #: notifications/forms.py:31
 msgid "Search for"
-msgstr ""
+msgstr "Suche nach"
 
 #: notifications/forms.py:32
 msgid "Subject"
-msgstr ""
+msgstr "Betreff"
 
 #: notifications/forms.py:33
 msgid "Body"
-msgstr ""
+msgstr "Text"
 
 #: notifications/forms.py:34
 msgid "Recipients"
-msgstr ""
+msgstr "Empfänger"
 
 #: templates/500.html:15
 msgid "Internal error"
-msgstr ""
+msgstr "Interner Fehler"
 
 #: templates/500.html:19
 msgid ""
 "ViMastrators have been notified about this problem. We apologize for the "
 "inconvenience."
 msgstr ""
+"Die ViMastratoren wurden über das Problem benachrichtigt. Wir entschuldigen "
+"uns für die Unannehmlichkeit."
 
 #: templates/500.html:20
 msgid "Yeap this is a nice <strong>500</strong>!"
 msgstr ""
+"Tja, dies ist ein feiner HTTP-Fehler mit dem Code <strong>500</strong>!"
 
 #: templates/apply/application_list.html:6
 msgid "Application list"
-msgstr ""
+msgstr "Anwendungsliste"
 
 #: templates/apply/application_list.html:22 templates/apply/apply.html:9
 #: templates/apply/review.html:14 templates/auditlog/auditlog.html:31
@@ -380,35 +410,35 @@ msgstr ""
 #: templates/users/idle_accounts.html:59 templates/users/profile.html:31
 #: templates/users/user_info.html:285
 msgid "Home"
-msgstr ""
+msgstr "Startseite"
 
 #: templates/apply/application_list.html:23 templates/apply/review.html:15
 #: templates/stats/statistics.html:103
 msgid "Instance Applications"
-msgstr ""
+msgstr "Anwendungen der Instanz"
 
 #: templates/apply/application_list.html:31
 msgid "Pending applications"
-msgstr ""
+msgstr "Wartende Anwendungen"
 
 #: templates/apply/application_list.html:33
 msgid "Show Active"
-msgstr ""
+msgstr "Aktive anzeigen"
 
 #: templates/apply/application_list.html:34
 msgid "Show Failed"
-msgstr ""
+msgstr "Fehlstarts anzeigen"
 
 #: templates/apply/application_list.html:40
 #: templates/apply/application_list.html:68
 #: templates/auditlog/auditlog.html:50 templates/stats/instance_owners.html:49
 msgid "User"
-msgstr ""
+msgstr "Benutzer"
 
 #: templates/apply/application_list.html:42
 #: templates/apply/application_list.html:70
 msgid "vCPUs"
-msgstr ""
+msgstr "virtuelle CPUs"
 
 #: templates/apply/application_list.html:44
 #: templates/apply/application_list.html:72 templates/apply/review.html:76
@@ -417,16 +447,16 @@ msgstr ""
 #: templates/instances/user_instances_json.html:53 templates/jobs/jobs.html:50
 #: templates/users/user_info.html:370
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: templates/apply/application_list.html:45
 #: templates/apply/application_list.html:73
 msgid "Filed"
-msgstr ""
+msgstr "Gemeldet"
 
 #: templates/apply/application_list.html:63
 msgid "Completed applications"
-msgstr ""
+msgstr "Beendete Anwendungen"
 
 #: templates/apply/application_list.html:116
 #: templates/apply/application_list.html:135
@@ -437,7 +467,7 @@ msgstr ""
 #: templates/stats/statistics.html:194 templates/users/idle_accounts.html:35
 #: templates/users/user_info.html:34
 msgid "Display"
-msgstr ""
+msgstr "Anzeige"
 
 #: templates/apply/application_list.html:116
 #: templates/apply/application_list.html:135
@@ -448,34 +478,34 @@ msgstr ""
 #: templates/stats/statistics.html:194 templates/users/idle_accounts.html:35
 #: templates/users/user_info.html:34
 msgid "All"
-msgstr ""
+msgstr "Alle"
 
 #: templates/apply/application_list.html:116
 #: templates/apply/application_list.html:135
 msgid "applications"
-msgstr ""
+msgstr "Anwendungen"
 
 #: templates/apply/apply.html:5
 msgid "Create new Virtual Machine"
-msgstr ""
+msgstr "Neue virtuelle Maschine erstellen"
 
 #: templates/apply/apply.html:11 templates/base.html:206
 #: templates/base.html.py:219
 msgid "Create Instance"
-msgstr ""
+msgstr "Neue Instanz erstellen"
 
 #: templates/apply/apply.html:43
 msgid "Apply for a new instance"
-msgstr ""
+msgstr "Eine neue Instanz beantragen"
 
 #: templates/apply/apply.html:48 templates/apply/review.html:73
 #: templates/apply/review.html.py:293
 msgid "Instance information"
-msgstr ""
+msgstr "Instanz Informationen"
 
 #: templates/apply/apply.html:135
 msgid "Use/Comments"
-msgstr ""
+msgstr "Verwendungszweck/Kommentare"
 
 #: templates/apply/apply.html:136
 msgid ""
@@ -483,26 +513,34 @@ msgid ""
 "justifies the parameter selection above. Feel free to include any additional "
 "comments."
 msgstr ""
+"Beschreiben Sie hier kurz den geplanten Verwendungszweck der virtuellen "
+"Maschine, dieser sollte die Parameterwahl weiter oben rechtfertigen. Falls "
+"nötig, können Sie hier auch weitere Kommentare hinterlegen."
 
 #: templates/apply/apply.html:152 templates/apply/review.html:156
 #: templates/apply/review.html.py:359
 msgid "Administrative contact"
-msgstr ""
+msgstr "Administrativer Kontakt"
 
+# Very free translation: actually the English string should be more generic, as well.
 #: templates/apply/apply.html:154
 msgid ""
 "If you are applying on behalf of a NOC under GRNET's\n"
 "\t\t\t\t\t\tconstituency, please select the appropriate organization.\n"
 "\t\t\t\t\t\tOtherwise, fill-in the admin contact information below."
 msgstr ""
+"Falls Sie/Ihre Organisation als Kunde hier hinterlegt ist,\n"
+"\t\t\t\t\t\twählen Sie bitte die entsprechende Organisation aus.\n"
+"\t\t\t\t\t\tAndernfalls hinterlassen Sie bitte Ihre Kontaktdaten weiter "
+"unten."
 
 #: templates/apply/apply.html:223
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Verschiedenes"
 
 #: templates/apply/apply.html:224
 msgid "We kindly remind you of the following:"
-msgstr ""
+msgstr "We weise freundlich auf folgendes hin:"
 
 #: templates/apply/apply.html:226
 msgid ""
@@ -518,32 +556,47 @@ msgid ""
 "\t\t\t\t\t\t</li>\n"
 "\t\t\t\t\t\t"
 msgstr ""
+"\n"
+"\t\t\t\t\t\t<li>\n"
+"\t\t\t\t\t\t\tSie sind selbst verantwortlich für die Daten auf Ihrer VM.\n"
+"\t\t\t\t\t\t\tBitte kümmern Sie sich eigenständig um Datensicherung, etc.\n"
+"\t\t\t\t\t\t</li>\n"
+"\t\t\t\t\t\t<li>\n"
+"\t\t\t\t\t\t\tWir behalten uns das Recht vor, Ihre VM temporär außer Betrieb "
+"zu\n"
+"\t\t\t\t\t\t\tsetzen, falls sie Fehlfunktionen in unserer Infrastruktur "
+"verursacht\n"
+"\t\t\t\t\t\t</li>\n"
+"\t\t\t\t\t\t"
 
 #: templates/apply/apply.html:243
 msgid "You must accept the terms of service before continuing."
 msgstr ""
+"Sie müssen unsere Nutzungsbedingungen akzeptieren, before Sie fortfahren "
+"können."
 
 #: templates/apply/apply.html:247
 msgid "I have read the above and accept them, along with the"
 msgstr ""
+"Ich habe oben stehendes gelesen und akzeptiere das Gelesene, zusammen mit"
 
 #: templates/apply/apply.html:247
 msgid "Terms of Service"
-msgstr ""
+msgstr "Nutzungsbedingungen"
 
 #: templates/apply/apply.html:253
 #: templates/instances/instance_actions.html:354
 msgid "Apply"
-msgstr ""
+msgstr "Antrag"
 
 #: templates/apply/review.html:11 templates/apply/review.html.py:65
 msgid "Review application"
-msgstr ""
+msgstr "Antrag überprüfen"
 
 #: templates/apply/review.html:54 templates/auditlog/auditlog.html:67
 #: templates/jobs/jobs.html:64
 msgid "Job Details"
-msgstr ""
+msgstr "Auftragdetails"
 
 #: templates/apply/review.html:59 templates/auditlog/auditlog.html:72
 #: templates/instances/instance.html:410
@@ -554,386 +607,387 @@ msgstr ""
 #: templates/instances/user_instances_json.html:82 templates/jobs/jobs.html:69
 #: templates/users/user_info.html:394
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: templates/apply/review.html:65
 msgid "by"
-msgstr ""
+msgstr "von"
 
 #: templates/apply/review.html:66
 msgid "Submitted"
-msgstr ""
+msgstr "Gemeldet"
 
 #: templates/apply/review.html:173 templates/apply/review.html.py:374
 msgid "Placement"
-msgstr ""
+msgstr "Platzierung"
 
+# To inconcrete: network placement(?) -> data center selection? Ganeti node selection(?)
 #: templates/apply/review.html:176
 msgid "The user has requested explicit network placement on"
-msgstr ""
+msgstr "Der Benutzer hat eine explizite Netzwerk-Platzierung angefragt"
 
 #: templates/apply/review.html:247 templates/apply/review.html.py:380
 msgid "Job ID"
-msgstr ""
+msgstr "Auftrags-Id"
 
 #: templates/apply/review.html:257 templates/apply/review.html.py:390
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
 #: templates/apply/review.html:268
 msgid "Decision"
-msgstr ""
+msgstr "Entscheidung"
 
 #: templates/apply/review.html:270
 msgid "Comments to the user"
-msgstr ""
+msgstr "Anmerkungen für den Benutzer"
 
 #: templates/apply/review.html:376
 msgid "The instance has been placed on"
-msgstr ""
+msgstr "Die Instanz wurde platziert auf"
 
 #: templates/apply/review.html:407
 msgid "Pending Instance Applications"
-msgstr ""
+msgstr "Auf Bearbeitung wartende Instanz-Anträge"
 
 #: templates/auditlog/auditlog.html:28 templates/auditlog/auditlog.html:32
 #: templates/auditlog/auditlog.html:39 templates/base.html:247
 msgid "Audit Log"
-msgstr ""
+msgstr "Prüfprotokoll"
 
 #: templates/auditlog/auditlog.html:28 templates/auditlog/auditlog.html:32
 #: templates/auditlog/auditlog.html:39 templates/base.html:247
 msgid "History"
-msgstr ""
+msgstr "Historie"
 
 #: templates/auditlog/auditlog.html:44 templates/jobs/jobs.html:48
 msgid "Job Id"
-msgstr ""
+msgstr "Auftrags-Id"
 
 #: templates/auditlog/auditlog.html:45 templates/instances/instance.html:102
 #: templates/instances/user_instances_json.html:46 templates/jobs/jobs.html:49
 #: templates/users/user_info.html:366
 msgid "Cluster"
-msgstr ""
+msgstr "Cluster"
 
 #: templates/auditlog/auditlog.html:47
 msgid "Instance"
-msgstr ""
+msgstr "Instanz"
 
 #: templates/auditlog/auditlog.html:48
 msgid "Action"
-msgstr ""
+msgstr "Aktion"
 
 #: templates/auditlog/auditlog.html:52
 msgid "Time"
-msgstr ""
+msgstr "Zeit"
 
 #: templates/auditlog/auditlog.html:91
 msgid "logs"
-msgstr ""
+msgstr "Protokolle"
 
 #: templates/base.html:82
 msgid "From user"
-msgstr ""
+msgstr "Von Benutzer"
 
 #: templates/base.html:150 templates/base.html.py:183 templates/base.html:213
 #: templates/base.html.py:269
 msgid "My Profile"
-msgstr ""
+msgstr "Mein Profil"
 
 #: templates/base.html:154 templates/base.html.py:274
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: templates/base.html:160
 msgid "Language"
-msgstr ""
+msgstr "Sprache"
 
 #: templates/base.html:185 templates/base.html.py:214
 msgid "Logout"
-msgstr ""
+msgstr "Abmelden"
 
 #: templates/base.html:208 templates/base.html.py:222 templates/base.html:258
 #: templates/stats/statistics.html:326
 msgid "Applications"
-msgstr ""
+msgstr "Anwendungen"
 
 #: templates/base.html:211 templates/base.html.py:227 templates/base.html:277
 msgid "Admin"
-msgstr ""
+msgstr "Administration"
 
 #: templates/base.html:228
 msgid "Clear Cache"
-msgstr ""
+msgstr "Cache leeren"
 
 #: templates/base.html:236 templates/notifications/create.html:6
 #: templates/notifications/create.html:13
 #: templates/notifications/create_body.html:5
 msgid "Send Mail"
-msgstr ""
+msgstr "E-Mail versenden"
 
 #: templates/base.html:237 templates/clusters/clusters.html:8
 #: templates/clusters/clusters.html:42
 msgid "Cluster Info"
-msgstr ""
+msgstr "Cluster-Informationen"
 
 #: templates/base.html:238 templates/clusters/cluster_nodes.html:18
 #: templates/clusters/cluster_nodes.html:24
 #: templates/clusters/cluster_nodes.html:32
 #: templates/graphs/nodes-graphs.html:5
 msgid "Nodes"
-msgstr ""
+msgstr "Knoten"
 
 #: templates/base.html:239 templates/jobs/jobs.html:30
 #: templates/jobs/jobs.html.py:36
 msgid "Jobs"
-msgstr ""
+msgstr "Aufträge"
 
 #: templates/base.html:240 templates/graphs/nodes-graphs.html:19
 msgid "Graphs"
-msgstr ""
+msgstr "Graphen"
 
 #: templates/base.html:252 templates/stats/statistics.html:257
 msgid "Statistics"
-msgstr ""
+msgstr "Statistiken"
 
 #: templates/base.html:266
 msgid "Instance Owners"
-msgstr ""
+msgstr "Besitzer der Instanz"
 
 #: templates/base.html:267 templates/users/idle_accounts.html:54
 #: templates/users/idle_accounts.html:60
 msgid "Idle Accounts"
-msgstr ""
+msgstr "Ungenutzte Konten"
 
 #: templates/base.html:271 templates/news/news.html:24
 #: templates/news/news.html.py:31 templates/news/news.html:38
 #: templates/users/login.html:58
 msgid "Latest News"
-msgstr ""
+msgstr "Aktuelle Neuigkeiten"
 
 #: templates/base.html:323
 msgid "This is a service provided by"
-msgstr ""
+msgstr "Dieser Dienst wird bereitgestellt von"
 
 #: templates/base.html:348
 msgid "Info"
-msgstr ""
+msgstr "Informationen"
 
 #: templates/base.html:356
 msgid "Service Terms"
-msgstr ""
+msgstr "Nutzungsbedingungen"
 
 #: templates/clusters/cluster_nodes.html:38
 msgid "Nodegroup"
-msgstr ""
+msgstr "Knotengruppe"
 
 #: templates/clusters/cluster_nodes.html:40
 #: templates/instances/user_instances_json.html:51
 #: templates/users/user_info.html:368
 msgid "Disk"
-msgstr ""
+msgstr "Festplatte"
 
 #: templates/clusters/clusters.html:53
 msgid "Disk Templates"
-msgstr ""
+msgstr "Vorlagen für Festplatten"
 
 #: templates/clusters/clusters.html:54
 msgid "Hypervisor"
-msgstr ""
+msgstr "Hypervisor"
 
 #: templates/clusters/clusters.html:55
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: templates/clusters/clusters.html:56 templates/stats/instance_owners.html:50
 #: templates/users/user_info.html:359
 msgid "Instances"
-msgstr ""
+msgstr "Instanzen"
 
 #: templates/clusters/clusters.html:58
 msgid "Ipolicy"
-msgstr ""
+msgstr "Instanz-Richtlinie"
 
 #: templates/clusters/clusters.html:73
 msgid "Nodegroups"
-msgstr ""
+msgstr "Knotengruppen"
 
 #: templates/clusters/clusters.html:84
 msgid "Networks"
-msgstr ""
+msgstr "Netzwerke"
 
 #: templates/graphs/nodes-graphs.html:37
 msgid "Get Graphs"
-msgstr ""
+msgstr "Graphen erstellen"
 
 #: templates/instances/includes/console-module.html:4
 #: templates/instances/includes/console-module.html:6
 #: templates/instances/novnc.html:9 templates/instances/novnc.html.py:199
 #: templates/instances/vnc.html:9 templates/instances/vnc.html.py:14
 msgid "Console"
-msgstr ""
+msgstr "Konsole"
 
 #: templates/instances/instance.html:8
 msgid "about"
-msgstr ""
+msgstr "über"
 
 #: templates/instances/instance.html:8
 msgid "on cluster"
-msgstr ""
+msgstr "auf Cluster"
 
 #: templates/instances/instance.html:93 templates/instances/instance.html:215
 #: templates/instances/user_instances_json.html:403
 #: templates/users/user_info.html:207
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: templates/instances/instance.html:113
 #: templates/instances/user_instances_json.html:48
 msgid "Node"
-msgstr ""
+msgstr "Knoten"
 
 #: templates/instances/instance.html:118
 msgid "OS"
-msgstr ""
+msgstr "Betriebssystem"
 
 #: templates/instances/instance.html:126
 msgid "CPUs"
-msgstr ""
+msgstr "CPUs"
 
 #: templates/instances/instance.html:134
 msgid "Network cards"
-msgstr ""
+msgstr "Netzwerkkarten"
 
 #: templates/instances/instance.html:174
 msgid "Created on"
-msgstr ""
+msgstr "Erstellt am"
 
 #: templates/instances/instance.html:178
 msgid "Last modified"
-msgstr ""
+msgstr "Zuletzt geändert"
 
 #: templates/instances/instance.html:182 templates/instances/instance.html:216
 #: templates/instances/user_instances_json.html:404
 msgid "Owners"
-msgstr ""
+msgstr "Besitzer"
 
 #: templates/instances/instance.html:199
 msgid "Manage Owners"
-msgstr ""
+msgstr "Besitzer verwalten"
 
 #: templates/instances/instance.html:206
 msgid "Admin Options"
-msgstr ""
+msgstr "Admin-Optionen"
 
 #: templates/instances/instance.html:211
 #: templates/instances/user_instances_json.html:61
 #: templates/instances/user_instances_json.html:401
 #: templates/users/user_info.html:205 templates/users/user_info.html.py:378
 msgid "Options"
-msgstr ""
+msgstr "Optionen"
 
 #: templates/instances/instance.html:217
 #: templates/instances/user_instances_json.html:405
 #: templates/users/user_info.html:209
 msgid "Notify"
-msgstr ""
+msgstr "Benachrichtigen"
 
 #: templates/instances/instance.html:219
 #: templates/instances/user_instances_json.html:388
 #: templates/users/user_info.html:198
 msgid "Unlock"
-msgstr ""
+msgstr "Entsperren"
 
 #: templates/instances/instance.html:221
 #: templates/instances/user_instances_json.html:391
 #: templates/users/user_info.html:201
 msgid "Lock"
-msgstr ""
+msgstr "Sperren"
 
 #: templates/instances/instance.html:225
 #: templates/instances/user_instances_json.html:394
 msgid "De-Isolate"
-msgstr ""
+msgstr "De-Isolieren"
 
 #: templates/instances/instance.html:229
 #: templates/instances/user_instances_json.html:397
 msgid "Isolate"
-msgstr ""
+msgstr "Isolieren"
 
 #: templates/instances/instance.html:238
 msgid "Application"
-msgstr ""
+msgstr "Anwendung"
 
 #: templates/instances/instance.html:258 templates/instances/instance.html:261
 msgid "No data available yet..."
-msgstr ""
+msgstr "Noch keine Daten verfügbar..."
 
 #: templates/instances/instance.html:270
 msgid "Configuration Options"
-msgstr ""
+msgstr "Konfigurationsoptionen"
 
 #: templates/instances/instance.html:276
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguration"
 
 #: templates/instances/instance.html:367
 msgid "!"
-msgstr ""
+msgstr "!"
 
 #: templates/instances/instance.html:375
 msgid "Update"
-msgstr ""
+msgstr "Aktualisieren"
 
 #: templates/instances/instance.html:390
 msgid "Actions"
-msgstr ""
+msgstr "Aktionen"
 
 #: templates/instances/instance.html:405
 msgid "Instance Tags"
-msgstr ""
+msgstr "Instanz-Tags"
 
 #: templates/instances/instance_actions.html:208
 msgid "Shutdown"
-msgstr ""
+msgstr "Herunterfahren"
 
 #: templates/instances/instance_actions.html:209
 #: templates/instances/instance_actions.html:238
 msgid "Reboot"
-msgstr ""
+msgstr "Neu starten"
 
 #: templates/instances/instance_actions.html:213
 #: templates/instances/instance_actions.html:248
 msgid "Rename..."
-msgstr ""
+msgstr "Umbenennen..."
 
 #: templates/instances/instance_actions.html:214
 #: templates/instances/instance_actions.html:256
 msgid "Reinstall..."
-msgstr ""
+msgstr "Neu installieren..."
 
 #: templates/instances/instance_actions.html:215
 #: templates/instances/instance_actions.html:264
 msgid "Destroy..."
-msgstr ""
+msgstr "Löschen..."
 
 #: templates/instances/instance_actions.html:231 templates/jobs/jobs.html:52
 msgid "Start"
-msgstr ""
+msgstr "Starten"
 
 #: templates/instances/instance_actions.html:284
 msgid "Instance actions are disabled by the administrator"
-msgstr ""
+msgstr "Aktionen für diese Instanz wurden vom Adminstrator deaktiviert"
 
 #: templates/instances/instance_actions.html:295
 msgid "Reinstall Instance"
-msgstr ""
+msgstr "Instanz neu installieren"
 
 #: templates/instances/instance_actions.html:299
 #: templates/instances/instance_actions.html:328
 #: templates/instances/instance_actions.html:368
 msgid "Warning!"
-msgstr ""
+msgstr "Warnung!"
 
 #: templates/instances/instance_actions.html:301
 #, python-format
@@ -948,16 +1002,26 @@ msgid ""
 "visit the activation link, your instance will be reinstalled.\n"
 "\t\t\t\t"
 msgstr ""
+"\n"
+"\t\t\t\tSie veranlassen gerade eine Neu-Installation der Instanz <strong>"
+"%(instance)s</strong>.\n"
+"\t\t\t\t<br>Dieser Vorgang <strong>löscht alle Daten</strong> und setzt die "
+"Instanz in den Ursprungszustand zurück. Alle Daten gehen dabei verloren.\n"
+"\t\t\t\t<br>Ihre Instanz wird jedoch nicht sofort neu installiert.<br>\n"
+"\t\t\t\tSie erhalten zunächst eine E-Mail mit einem Aktivierungslink. Erst "
+"wenn Sie diesen Aktivierungslink aufgerufen haben, startet die Neu-"
+"Installation der Instanz.\n"
+"\t\t\t\t"
 
 #: templates/instances/instance_actions.html:314
 #: templates/instances/instance_actions.html:339
 #: templates/instances/rename_instance.html:55
 msgid "Email link"
-msgstr ""
+msgstr "E-Mail Link"
 
 #: templates/instances/instance_actions.html:324
 msgid "Destroy Instance"
-msgstr ""
+msgstr "Instanz löschen"
 
 #: templates/instances/instance_actions.html:330
 #, python-format
@@ -971,11 +1035,20 @@ msgid ""
 "visit the activation link, your instance will be destroyed.\n"
 "\t\t\t\t"
 msgstr ""
+"Sie veranlassen gerade das Löschen der Instanz <strong>%(instance)s</"
+"strong>.\n"
+"\t\t\t\tDieser Vorgang wird <strong>die Instanz löschen</strong>. Alle Daten "
+"gehen dabei verloren.\n"
+"\t\t\t\t<br>Ihre Instanz wird jedoch nicht sofort gelöscht.<br>\n"
+"\t\t\t\tSie erhalten zunächst eine E-Mail mit einem Aktivierungslink. Erst "
+"wenn Sie diesen Aktivierungslink aufgerufen haben, startet für die Instanz "
+"der Löschvorgang.\n"
+"\t\t\t\t"
 
 #: templates/instances/instance_actions.html:349
 #: templates/instances/instance_actions.html:364
 msgid "Rename Instance"
-msgstr ""
+msgstr "Instanz umbenennen"
 
 #: templates/instances/instance_actions.html:370
 #, python-format
@@ -985,20 +1058,27 @@ msgid ""
 "\t\t\t\tTo turn it off select shutdown from this panel.\n"
 "\t\t\t\t"
 msgstr ""
+"Sie können die Instanz <strong>%(instance)s</strong> nicht umbenennen.\n"
+"\t\t\t\tNur Instanzen, die ausgeschaltet sind, können umbenannt werden.\n"
+"\t\t\t\tEine Instanz kann über 'Herunterfahren' auf dieser Schaltfläche "
+"ausgeschaltet werden.\n"
+"\t\t\t\t"
 
 #: templates/instances/novnc.html:208 templates/instances/vnc.html:21
 msgid "VNC session on"
-msgstr ""
+msgstr "VNC-Sitzung auf"
 
 #: templates/instances/novnc.html:222
 msgid ""
 "Canvas is not supported in your browser. Please use new versions\n"
 "\t\t\t\t\t\tof Chrome or Firefox."
 msgstr ""
+"Canvas-Technologie wird von Ihrem Browser nicht unterstützt. Bitte verwenden "
+"Sie neue Versionen von Chrome oder Firefox."
 
 #: templates/instances/rename_instance.html:32
 msgid "Instance Rename"
-msgstr ""
+msgstr "Umbenennung von Instanz"
 
 #: templates/instances/rename_instance.html:33
 #, python-format
@@ -1012,78 +1092,90 @@ msgid ""
 "an instance make sure that it is turned off</div>\n"
 "\t"
 msgstr ""
+"Sie veranlassen gerade das Umbenennen der Instanz <strong>%(instance)s</"
+"strong>.\n"
+"\tSobald Sie einen neuen Hostnamen eingegeben haben und auf Anwenden "
+"geklickt haben, erhalte Sie eine E-Mail mit einem Aktivierungslink. Die "
+"Instanz wird nur umbenannt, wenn Sie diesen Aktivierungslink öffnen.\n"
+"\t<div class=\"alert alert-warning\"><strong>Wichtig:</strong> Für das "
+"Umbenennen stellen Sie sicher, dass die Instanz ausgeschaltet ist.</div>\n"
+"\t"
 
 #: templates/instances/user_instances_json.html:29
 #: templates/instances/user_instances_json.html:40
 msgid "My instances"
-msgstr ""
+msgstr "Meine Instanzen"
 
 #: templates/instances/user_instances_json.html:57
 #: templates/users/user_info.html:374
 msgid "MAC"
-msgstr ""
+msgstr "MAC"
 
 #: templates/instances/user_instances_json.html:60
 #: templates/users/user_info.html:377
 msgid "Owner"
-msgstr ""
+msgstr "Besitzer"
 
 #: templates/instances/user_instances_json.html:62
 #: templates/users/user_info.html:379
 msgid "HiddenContactDetails"
-msgstr ""
+msgstr "Versteckte Kontaktdaten"
 
 #: templates/instances/user_instances_json.html:64
 msgid "Shortcuts"
-msgstr ""
+msgstr "Kürzel"
 
 #: templates/instances/user_instances_json.html:77
 #: templates/users/user_info.html:389
 msgid "Instance Details"
-msgstr ""
+msgstr "Instanzdetails"
 
 #: templates/instances/user_instances_json.html:152
 msgid "instances"
-msgstr ""
+msgstr "Instanzen"
 
 #: templates/instances/verify_action.html:42
 msgid "All your data will be lost!"
-msgstr ""
+msgstr "Alle Ihre Daten gehen verloren!"
 
 #: templates/instances/verify_action.html:43
 msgid "Your instance will be deleted!"
-msgstr ""
+msgstr "Ihre Instanz wird gelöscht!"
 
 #: templates/instances/verify_action.html:44
 msgid "Make sure you have a recent backup of your data!"
 msgstr ""
+"Stellen Sie sicher, dass sie eine aktuelle Sicherung Ihrer Daten haben!"
 
 #: templates/instances/verify_action.html:45
 msgid "Once initiated, this process cannot be undone or stop!"
 msgstr ""
+"Wenn der Vorgang gestartet wurde, kann er nicht mehr rückgängig oder "
+"angehalten werden!"
 
 #: templates/instances/verify_action.html:49
 #: templates/users/pass_change.html:59
 msgid "Important"
-msgstr ""
+msgstr "Wichtig"
 
 #: templates/instances/verify_action.html:49
 msgid "To rename an instance make sure that it is turned off"
 msgstr ""
+"Um eine Instanz umzubenennen, stellen Sie sicher, dass sie ausgeschaltet ist."
 
 #: templates/instances/verify_action.html:55
 #: templates/instances/verify_action.html:61
 msgid "Re-install"
-msgstr ""
+msgstr "Neuinstallation"
 
 #: templates/instances/verify_action.html:56
 #: templates/instances/verify_action.html:62
 msgid "Destroy"
-msgstr ""
+msgstr "Löschen"
 
 #: templates/instances/verify_action.html:57
 msgid "Rename"
-msgstr ""
+msgstr "Umbenennen"
 
 #: templates/instances/verify_action.html:63
 #, python-format
@@ -1091,300 +1183,310 @@ msgid ""
 "on instance <strong>%(instance)s</strong> is no longer available. It has "
 "either expired or it is already performed."
 msgstr ""
+"auf Instanz <strong>%(instance)s</strong> ist nicht länger möglich. Die "
+"Aktion ist entweder nicht mehr gültig oder bereits durchgeführt."
 
 #: templates/instances/verify_action.html:65
 msgid "Apply for a new request via the instance details page."
-msgstr ""
+msgstr "Erstellen Sie einen neuen Auftrag auf der Detailseite der Instanz."
 
 #: templates/instances/verify_action.html:71
 msgid "You are about to change your email to"
-msgstr ""
+msgstr "Sie ändern gerade Ihre E-Mailadresse in"
 
 #: templates/instances/verify_action.html:75 templates/users/profile.html:60
 msgid "Change Email"
-msgstr ""
+msgstr "E-Mailadresse ändern"
 
 #: templates/jobs/jobs.html:43
 msgid "Clusters Jobs"
-msgstr ""
+msgstr "Cluster Aufträge"
 
 #: templates/jobs/jobs.html:51
 msgid "Opcode Id"
-msgstr ""
+msgstr "Opcode-Id"
 
 #: templates/jobs/jobs.html:158
 msgid "jobs"
-msgstr ""
+msgstr "Aufträge"
 
 #: templates/notifications/create_body.html:76
 msgid "Send"
-msgstr ""
+msgstr "Senden"
 
 #: templates/notifications/create_script.html:10
 msgid "Type name(s) from user, group, instance, cluster"
-msgstr ""
+msgstr "Geben Sie Name(n) von Benutzer, Gruppe, Instanz, Cluster ein"
 
 #: templates/registration/activate.html:3
 #: templates/registration/activation_complete.html:3
 #: templates/registration/activation_complete.html:16
 msgid "Activation Complete"
-msgstr ""
+msgstr "Aktivierung abgeschlossen"
 
 #: templates/registration/activate.html:15
 msgid "Activation Status"
-msgstr ""
+msgstr "Aktivierungsstatus"
 
 #: templates/registration/activate.html:19
 msgid "succesfully activated"
-msgstr ""
+msgstr "erfolgreich aktiviert"
 
 #: templates/registration/activate.html:21
 msgid "The user has probably been already activated."
-msgstr ""
+msgstr "Der Benutzer wurde wahrscheinlich bereits aktiviert."
 
 #: templates/registration/activation_complete.html:19
 msgid "The user will be notified about his/her account activation"
-msgstr ""
+msgstr "Der Benutzer wird über die Kontoaktivierung benachrichtigt."
 
 #: templates/registration/activation_complete.txt:3
 msgid "Your account with username  "
-msgstr ""
+msgstr "Ihre Konto mit Benutzername"
 
 #: templates/registration/activation_complete.txt:3
 msgid "has been activated."
-msgstr ""
+msgstr "wurde aktiviert."
 
 #: templates/registration/activation_complete.txt:4
 msgid "You may login to ganetimgr using the following URL:"
-msgstr ""
+msgstr "Sie können sich unter folgender URL in ganetimgr anmelden:"
 
 #: templates/registration/password_change_form.html:5
 #: templates/users/profile.html:52
 msgid "Change Password"
-msgstr ""
+msgstr "Kennwort ändern"
 
 #: templates/registration/password_change_form.html:11
 msgid "Submit"
-msgstr ""
+msgstr "Absenden"
 
 #: templates/registration/password_reset_complete.html:3
 #: templates/registration/password_reset_complete.html:16
 msgid "Password Reset Complete"
-msgstr ""
+msgstr "Zurücksetzen des Kennworts abgeschlossen"
 
 #: templates/registration/password_reset_complete.html:20
 msgid "Your password was successfully reset. You may login"
-msgstr ""
+msgstr "Ihr Kennwort wurde erfolgreich zurückgesetzt. Sie können sich"
 
 #: templates/registration/password_reset_complete.html:20
 msgid "here"
-msgstr ""
+msgstr "hier anmelden"
 
 #: templates/registration/password_reset_confirm.html:2
 #: templates/registration/password_reset_form.html:2
 msgid "Reset Password"
-msgstr ""
+msgstr "Kennwort zurücksetzen"
 
 #: templates/registration/password_reset_confirm.html:14
 #: templates/registration/password_reset_form.html:14
 msgid "Password Reset"
-msgstr ""
+msgstr "Rücksetzen des Kennworts"
 
 #: templates/registration/password_reset_confirm.html:40
 #: templates/registration/password_reset_form.html:31
 msgid " Reset"
-msgstr ""
+msgstr "Zurücksetzen"
 
 #: templates/registration/password_reset_confirm.html:44
 msgid "There was an error processing your password change request."
 msgstr ""
+"Bei der Bearbeitung Ihrer Kennwortrücksetzung ist ein Fehler aufgetreten."
 
 #: templates/registration/password_reset_done.html:3
 msgid "Email sent"
-msgstr ""
+msgstr "E-mail wurde gesendet"
 
 #: templates/registration/password_reset_done.html:15
 msgid "Email Sent"
-msgstr ""
+msgstr "E-Mail wurde gesendet"
 
 #: templates/registration/password_reset_done.html:18
 msgid ""
 "An email has been sent containing instructions on resetting your password. "
 "Please check your inbox."
 msgstr ""
+"Eine Anleitung für das Zurücksetzen Ihres Kennwort wurde per E-Mail "
+"verschickt. Bitte überprüfen Sie Ihr E-Mailpostfach."
 
 #: templates/registration/registration_complete.html:3
 #: templates/registration/registration_form.html:3
 #: templates/registration/registration_form.html:48
 msgid "Register"
-msgstr ""
+msgstr "Registrieren"
 
 #: templates/registration/registration_complete.html:16
 msgid "Registration Email Sent"
-msgstr ""
+msgstr "Registrierungsemail wurde versendet"
 
 #: templates/registration/registration_complete.html:20
 msgid ""
 "An email has been sent to the system administrator. You will be soon "
 "notified about the activation of your account."
 msgstr ""
+"Eine E-Mail wurde an den System Administrator versendet. Sie werden in Kürze "
+"über die Aktivierung Ihres Kontos benachrichtigt."
 
 #: templates/registration/registration_complete.html:21
 msgid "Back to"
-msgstr ""
+msgstr "Zurück zu"
 
 #: templates/registration/registration_complete.html:21
 msgid "login"
-msgstr ""
+msgstr "Anmeldung"
 
 #: templates/registration/registration_complete.html:21
 msgid "page"
-msgstr ""
+msgstr "Seite"
 
 #: templates/registration/registration_form.html:23
 msgid "Register new user"
-msgstr ""
+msgstr "Neuen Benutzer registrieren"
 
 #: templates/stats/instance_owners.html:29
 #: templates/stats/instance_owners.html:35
 #: templates/stats/instance_owners.html:44
 msgid "Instance owners"
-msgstr ""
+msgstr "Instanzbesitzer"
 
 #: templates/stats/statistics.html:28
 msgid "Instance Creation History"
-msgstr ""
+msgstr "FIXME: Historie über das Erstellen neuer Instanzen"
 
 #: templates/stats/statistics.html:32 templates/stats/statistics.html.py:85
 msgid "Click and drag in the plot area to zoom in"
-msgstr ""
+msgstr "Klicken und ziehen Sie in der Grafik um die Abbildung zu vergrößern"
 
 #: templates/stats/statistics.html:33 templates/stats/statistics.html.py:86
 msgid "Drag your finger over the plot to zoom in"
 msgstr ""
+"Bewegen Sie Ihren Finger  über die Grafik um die Abbildung zu vergrößern."
 
 #: templates/stats/statistics.html:39
 msgid "Instance Creation Dates"
-msgstr ""
+msgstr "Instanz Erstelldaten"
 
 #: templates/stats/statistics.html:45
 msgid "Number of Instances"
-msgstr ""
+msgstr "Anzahl der Instanzen"
 
 #: templates/stats/statistics.html:53
 msgid "Created"
-msgstr ""
+msgstr "Erstellt"
 
 #: templates/stats/statistics.html:53 templates/stats/statistics.html:109
 msgid "So far"
-msgstr ""
+msgstr "Bis jetzt"
 
 #: templates/stats/statistics.html:81
 msgid "Instance Applications History"
-msgstr ""
+msgstr "FIXME: Historie der Instanzanwendungen"
 
 #: templates/stats/statistics.html:92
 msgid "Instance Application Dates"
-msgstr ""
+msgstr "FIXME: Instanz Anwendungsdaten"
 
 #: templates/stats/statistics.html:98
 msgid "Number of Applications"
-msgstr ""
+msgstr "Anzahl der Anwendungen"
 
 #: templates/stats/statistics.html:109
 msgid "Submitted:"
-msgstr ""
+msgstr "Beantragt:"
 
 #: templates/stats/statistics.html:265
 msgid "Service Statistics"
-msgstr ""
+msgstr "Serverstatistiken"
 
 #: templates/stats/statistics.html:272
 msgid "ganetimgr Statistics"
-msgstr ""
+msgstr "ganetimgr Statistiken"
 
 #: templates/stats/statistics.html:292 templates/users/idle_accounts.html:71
 #: templates/users/user_info.html:308 templates/users/user_info.html.py:316
 msgid "Username"
-msgstr ""
+msgstr "Benutzername"
 
 #: templates/stats/statistics.html:293
 msgid "VMs"
-msgstr ""
+msgstr "VMs"
 
 #: templates/stats/statistics.html:313
 msgid "Platform Statistics"
-msgstr ""
+msgstr "Plattformstatistiken"
 
 #: templates/stats/statistics.html:318 templates/stats/statistics.html:356
 msgid "Managed by ganetimgr"
-msgstr ""
+msgstr "Verwaltet von ganetimgr"
 
 #: templates/stats/statistics.html:321
 msgid "Instances "
-msgstr ""
+msgstr "Instanzen"
 
 #: templates/stats/statistics.html:323
 msgid "Created "
-msgstr ""
+msgstr "Erstellt"
 
 #: templates/stats/statistics.html:328
 msgid "Submitted "
-msgstr ""
+msgstr "Beantragt"
 
 #: templates/stats/statistics.html:331
 msgid "Users"
-msgstr ""
+msgstr "Benutzer"
 
 #: templates/stats/statistics.html:333
 msgid "Registered"
-msgstr ""
+msgstr "Registriert"
 
 #: templates/stats/statistics.html:336 templates/users/user_info.html:312
 msgid "Groups"
-msgstr ""
+msgstr "Gruppen"
 
 #: templates/stats/statistics.html:338
 msgid "of users"
-msgstr ""
+msgstr "von Benutzern"
 
 #: templates/stats/statistics.html:341
 msgid "Organizations"
-msgstr ""
+msgstr "Organisationen"
 
 #: templates/stats/statistics.html:343
 msgid "Participating"
-msgstr ""
+msgstr "Teilnehmend"
 
 #: templates/stats/statistics.html:351
 msgid "Your Statistics"
-msgstr ""
+msgstr "Ihre Statistiken"
 
 #: templates/stats/statistics.html:354
 msgid "My Instances"
-msgstr ""
+msgstr "Meine Instanzen"
 
 #: templates/stats/statistics.html:361 templates/stats/statistics.html:366
 #: templates/stats/statistics.html:371
 msgid "Total"
-msgstr ""
+msgstr "Gesamt"
 
 #: templates/stats/statistics.html:376 templates/stats/statistics.html:381
 #: templates/stats/statistics.html:386
 msgid "Avg."
-msgstr ""
+msgstr "Durchschnittlich"
 
 #: templates/tagging/itags.html:106
 msgid "Warning"
-msgstr ""
+msgstr "Warnung"
 
 #: templates/tagging/itags.html:106
 msgid "Adding or removing users and groups is done on your own responsibility"
 msgstr ""
+"Das Hinzufügen oder Entfernen von Benutzern und Gruppen obliegt Ihrer "
+"eigenen Verantwortung."
 
 #: templates/users/emails/idle_account.txt:2
 msgid "Dear user,"
-msgstr ""
+msgstr "Sehr geeherte/r Nutzer/in,"
 
 #: templates/users/emails/idle_account.txt:3
 msgid ""
@@ -1392,6 +1494,9 @@ msgid ""
 "To ensure the validity of user accounts in the\n"
 "ganetimgr service we monitor usage of the web management interface.\n"
 msgstr ""
+"\n"
+"Um die Echtheit von Nutzerkonten im ganetimgr Web-Dienstsicherzustellen, "
+"wird die Nutzungsweise der Verwaltungsoberfläche überwacht.\n"
 
 #: templates/users/emails/idle_account.txt:8
 #, python-format
@@ -1400,6 +1505,9 @@ msgid ""
 "We would like to inform you that the last time you logged in\n"
 "was %(days)s ago (or more).\n"
 msgstr ""
+"\n"
+"Wir möchten Sie darüber informieren, dass Sie sich zuletzt\n"
+"vor %(days)s (oder mehr) angemeldet haben.\n"
 
 #: templates/users/emails/idle_account.txt:13
 msgid ""
@@ -1407,12 +1515,19 @@ msgid ""
 "Therefore we kindly ask you to confirm the validity of your account.\n"
 "The confirmation is performed by accessing the login page of the service:\n"
 msgstr ""
+"\n"
+"Aus diesem Grund möchten wir Sie bitte, die Echtheit Ihres Kontos zu "
+"bestätigen.\n"
+"Bitte besuchen Sie die Anmeldeseite des Web-Dienstes, um die "
+"Echtheitsprüfung vorzunehmen:\n"
 
 #: templates/users/emails/idle_account.txt:19
 msgid ""
 "\n"
 "Please do this as soon as possible.\n"
 msgstr ""
+"\n"
+"Bitte machen dies sobald wie möglich.\n"
 
 #: templates/users/emails/idle_account.txt:23
 msgid ""
@@ -1420,12 +1535,17 @@ msgid ""
 "Sincerely,\n"
 "The ganetimgr Management.\n"
 msgstr ""
+"\n"
+"Mit freundlichen Grüßen,\n"
+"Das ganetimgr Management.\n"
 
 #: templates/users/emails/pass_change_notify_mail.txt:2
 msgid ""
 "\n"
 "Dear user,\n"
 msgstr ""
+"\n"
+"Sehr geehrte/r Nutzer/in,\n"
 
 #: templates/users/emails/pass_change_notify_mail.txt:5
 #, python-format
@@ -1434,6 +1554,10 @@ msgid ""
 "We hereby inform you that the password for your account %(user.username)s\n"
 "in the ViMa service has been changed successfully.\n"
 msgstr ""
+"\n"
+"Wir möchten Sie darüber in Kenntnis setzen, dass das Kennwort für Ihr "
+"Zugangskonto %(user.username)s\n"
+"des ViMa-Dienstes erfolgreich geändert wurde.\n"
 
 #: templates/users/emails/pass_change_notify_mail.txt:10
 msgid ""
@@ -1441,38 +1565,41 @@ msgid ""
 "If the password change was not made by you, please inform\n"
 "the GRNET Helpdesk.\n"
 msgstr ""
+"\n"
+"Falls die Kennwortänderungen nicht von Ihnen selbst vorgenommen wurde,\n"
+"informieren Sie bitte das GRNET Helpdesk.\n"
 
 #: templates/users/idle_accounts.html:67
 msgid "User Idle Accounts"
-msgstr ""
+msgstr "Ungenutzte Nutzerkonten"
 
 #: templates/users/idle_accounts.html:72 templates/users/user_info.html:309
 #: templates/users/user_info.html.py:317
 msgid "First Name"
-msgstr ""
+msgstr "Vorname"
 
 #: templates/users/idle_accounts.html:73 templates/users/user_info.html:310
 #: templates/users/user_info.html.py:318
 msgid "Last Name"
-msgstr ""
+msgstr "Nachname"
 
 #: templates/users/idle_accounts.html:74 templates/users/user_info.html:311
 #: templates/users/user_info.html.py:319
 msgid "E-mail"
-msgstr ""
+msgstr "E-Mail"
 
 #: templates/users/idle_accounts.html:75
 msgid "Last Login"
-msgstr ""
+msgstr "Zuletzt angemeldet"
 
 #: templates/users/login.html:8 templates/users/login.html.py:67
 #: templates/users/login.html:96
 msgid "Login"
-msgstr ""
+msgstr "Anmeldename"
 
 #: templates/users/login.html:42
 msgid "Welcome"
-msgstr ""
+msgstr "Willkommen"
 
 #: templates/users/login.html:44
 msgid ""
@@ -1487,132 +1614,155 @@ msgid ""
 "hesitate to contact GRNET's Helpdesk.</p>\n"
 "\t\t\t\t\t\t\t\t\t\t"
 msgstr ""
+"\n"
+"\t\t\t\t\t\t\t\t\t\t\t<p>Willkommen auf GRNET's ViMa Dienst.</p>\n"
+"\t\t\t\t\t\t\t\t\t\t\t<p>Falls Sie diese Seite das erste Mal besuchen, "
+"nehmen Sie sich etwas Zeit, um die Service-Beschreibungen von ViMa zu lesen. "
+"Die Service-Beschreibungenkönnen Sie über den Hyperlink am Ende dieser Seite "
+"aufrufen. Danach können Sie mit der Registrierung eines Benutzerkontos "
+"fortfahren.</p>\n"
+"\t\t\t\t\t\t\t\t\t\t\t<p>Falls Sie bereits ein Benutzerkonto haben, können "
+"Sie sich über den Anmeldedialog rechts einloggen.</p>\n"
+"\t\t\t\t\t\t\t\t\t\t\t<p>Bei Fragen und Problemen steht Ihnen das GRNET "
+"Helpdesk jederzeit zur Verfügung.</p>\n"
+"\t\t\t\t\t\t\t\t\t\t"
 
 #: templates/users/login.html:70
 msgid "Your username and password didn't match. Please try again."
 msgstr ""
+"Benutzername und Kennwort stimmen nicht überein. Bitte noch einmal versuchen."
 
 #: templates/users/login.html:101
 msgid "Forgot password?"
-msgstr ""
+msgstr "Kennwort vergessen?"
 
 #: templates/users/login.html:102
 msgid "Register a new account"
-msgstr ""
+msgstr "Neues Benutzerkonto registrieren"
 
 #: templates/users/mail_change.html:7
 msgid ""
 "There is a pending mail change request on your behalf. Check your e-mails "
 "for an activation link."
 msgstr ""
+"Sie haben beantragt, Ihre E-Mailadresse zu ändern. Wir haben Ihnen eine E-"
+"Mail mit Aktivierungslink an die neue Adresse geschickt. Bitte prüfen Sie "
+"Ihren Posteingang."
 
 #: templates/users/mail_change.html:65
 msgid ""
 "enter your new mail address twice so we can verify you typed it in correctly."
 msgstr ""
+"Geben Sie Ihre neue E-Mailadresse zweimal ein, so dass wir sicherstellen "
+"können, dass die Adresse korrekt eingegeben wurde."
 
 #: templates/users/mail_change.html:67
 msgid ""
 "Once you submit this form you will receive an activation email with "
 "instructions on how to proceed"
 msgstr ""
+"Sobald Sie dieses Formular abgeschickt haben, erhalten Sie von uns eine E-"
+"Mail mit einem Aktivierungslink und Hinweisen für das weitere Vorgehen."
 
 #: templates/users/mail_change.html:69
 msgid "Your e-mail"
-msgstr ""
+msgstr "Ihre E-Mailadresse"
 
 #: templates/users/mail_change.html:71
 msgid "has successfully changed to"
-msgstr ""
+msgstr "wurde erfolgreicht geändert in"
 
 #: templates/users/mail_change.html:75
 msgid "you have not registered an address yet"
-msgstr ""
+msgstr "Sie haben bislang noch keine Adresse registriert"
 
 #: templates/users/mail_change.html:95
 msgid "Change email"
-msgstr ""
+msgstr "E-Mailadresse ändern"
 
 #: templates/users/name_change.html:60
 msgid "enter your first and last name"
-msgstr ""
+msgstr "Geben Sie Vor- und Zuname ein"
 
 #: templates/users/name_change.html:62
 msgid "Your name"
-msgstr ""
+msgstr "Ihre Name"
 
 #: templates/users/name_change.html:64
 msgid "was successfully changed"
-msgstr ""
+msgstr "wurde erfolgreich geändert"
 
 #: templates/users/name_change.html:68
 msgid "we don't know your name yet"
-msgstr ""
+msgstr "Wir kennen noch nicht Ihren Namen"
 
 #: templates/users/name_change.html:88 templates/users/pass_change.html:74
 msgid "Change"
-msgstr ""
+msgstr "Ändern"
 
 #: templates/users/pass_change.html:58
 msgid ""
 "please enter your old password, for security's sake, and then enter your new "
 "password twice so we can verify you typed it in correctly."
 msgstr ""
+"Zu Ihrer Sicherheit geben Sie bitte ihr altes Kennwort ein. Danach geben Sie "
+"Ihr neues Kennwort zweimal ein, so dass wir sicherstellen können, dass Sie "
+"es korrekt eingegeben haben."
 
 #: templates/users/pass_change.html:59
 msgid "Changing your password will log you out"
-msgstr ""
+msgstr "Nach Ändern des Kennworts müssen Sie sich neu anmelden"
 
 #: templates/users/pass_change_done.html:15
 msgid "Password changed"
-msgstr ""
+msgstr "Kennwort wurde geändert"
 
 #: templates/users/pass_change_done.html:15
 msgid "successfully"
-msgstr ""
+msgstr "erfolgreich"
 
 #: templates/users/profile.html:4
 msgid "about my profile"
-msgstr ""
+msgstr "Über mein Profil"
 
 #: templates/users/profile.html:32
 msgid "profile"
-msgstr ""
+msgstr "Profil"
 
 #: templates/users/profile.html:35 templates/users/profile.html.py:38
 msgid "My profile"
-msgstr ""
+msgstr "Mein Profil"
 
 #: templates/users/profile.html:44
 msgid "Change Name"
-msgstr ""
+msgstr "Namen ändern"
 
 #: templates/users/profile.html:70
 msgid "Manage SSH Keys"
-msgstr ""
+msgstr "SSH-Schlüssel verwalten"
 
 #: templates/users/user_info.html:208
 msgid "Tags"
-msgstr ""
+msgstr "Marker"
 
 #: templates/users/user_info.html:277 templates/users/user_info.html.py:287
 #: templates/users/user_info.html:299
 msgid "User Information"
-msgstr ""
+msgstr "Benutzerinformation"
 
 #: templates/users/user_info.html:280 templates/users/user_info.html.py:289
 #: templates/users/user_info.html:302
 msgid "Group Information"
-msgstr ""
+msgstr "Gruppeninformation"
 
 #: templates/users/user_info.html:315
 msgid "Group Name"
-msgstr ""
+msgstr "Gruppenname"
 
 #: templates/users/user_info.html:360
 #, python-format
 msgid "Displaying %(usergroup)s instances"
-msgstr ""
+msgstr "Zeige %(usergroup)s Instanzen an"
 
 #: templates/users/user_keys.html:88
 msgid ""
@@ -1620,18 +1770,22 @@ msgid ""
 "newly-created instances. Keys must be in OpenSSH format, either RSA, or DSA, "
 "with or without a trailing comment."
 msgstr ""
+"Laden Sie Ihre öffentlichen SSH-Schlüssel hoch, so dass diese automatisch in "
+"neu erstellten Instanzen hinterlegt werden. Schlüssel müssen im openSSH-"
+"Format (RSA oder DSA) bereitgestellt werden (mit oder ohne Kommentareintrag "
+"am Ende des Schlüssel)."
 
 #: templates/users/user_keys.html:95
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 #: templates/users/user_keys.html:106
 msgid "Add new key"
-msgstr ""
+msgstr "Neuen Schlüssel hinzufügen"
 
 #: templates/users/user_keys.html:116
 msgid "Add key"
-msgstr ""
+msgstr "Schlüssel hinzufügen"
 
 #, fuzzy
 #~ msgid "Please correct the error below."
