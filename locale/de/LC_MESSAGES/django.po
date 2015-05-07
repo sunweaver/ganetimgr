@@ -27,21 +27,22 @@ msgid ""
 "That e-mail address doesn't have an associated user account or the account "
 "has not been activated yet. Are you sure you've registered?"
 msgstr ""
-"Dieser e-Mailadresse ist kein Benutzerkonto zugeordnet oder das Konto wurde "
-"bislang noch nicht aktiviert. Haben Sie sich wirklich schon registriert?"
+"Diese e-Mailadresse wird von keinem Benutzerkonto verwendet oder das Konto "
+"wurde bislang noch nicht aktiviert. Haben Sie sich wirklich schon "
+"registriert?"
 
 #: accounts/forms.py:89
 msgid ""
 "The user account associated with this e-mail address cannot reset the "
 "password."
 msgstr ""
-"Für das Benutzerkonto, dem diese E-Mailadresse zugeordnet ist, konnte das "
-"Kennwort nicht zurückgesetzt werden."
+"Für das Benutzerkonto mit dieser E-Mailadresse konnte das Kennwort "
+"nichtzurückgesetzt werden."
 
 #: accounts/management/commands/idle_accounts.py:59
 #, python-format
 msgid "%sIdle Account Notification"
-msgstr "%sBenachrichtigung über ungenutzte Konten"
+msgstr "%sMitteilung über lange nicht genutztes Konto"
 
 #: accounts/views.py:46
 #, python-format
@@ -85,7 +86,7 @@ msgstr ""
 
 #: apply/forms.py:172
 msgid "Hosts mail server"
-msgstr "Beherbergt einen e-Mail DIenst (SMTP)"
+msgstr "Beherbergt einen e-Mail Dienst (SMTP)"
 
 #: apply/forms.py:177
 msgid "Organization"
@@ -116,7 +117,7 @@ msgstr "Hostname existiert bereits"
 msgid "Additional comments you would like the service administrators to see"
 msgstr ""
 "Zusätzliche Informationen, die für die Service-Administratoren sichtbar sein "
-"sollen."
+"sollen"
 
 #: apply/forms.py:225 templates/apply/review.html:167
 #: templates/apply/review.html.py:368
@@ -126,24 +127,23 @@ msgstr "Kommentare"
 #: apply/forms.py:253
 msgid "Choose either an organization or fill in the contact information"
 msgstr ""
-"Wählen Sie entweder eine Organisation aus oder hinterlassen Sie ihre "
-"Kontaktdaten."
+"Wählen Sie entweder eine Organisation aus oder geben Sie ihre Kontaktdatenein"
 
 #: apply/forms.py:265
 msgid "Choose an organization"
-msgstr "Wählen Sie eine Organisation aus"
+msgstr "Organisation auswählen"
 
 #: apply/forms.py:276
 msgid "Please fill in the contact information"
-msgstr "Bitte hinterlassen Sie Ihre Kontaktdaten"
+msgstr "Bitte geben Sie Ihre Kontaktdaten ein"
 
 #: apply/forms.py:326
 msgid "Please specify a reason for rejection"
-msgstr "Benennen Sie bitte den Ablehungsgrund"
+msgstr "Bitte den Ablehungsgrund mit angeben"
 
 #: apply/forms.py:358
 msgid "Application already handled"
-msgstr "Anwendung wird bereits verwaltet"
+msgstr "Antrag wurde bereits bearbeitet"
 
 #: apply/forms.py:378
 msgid "Malformed SSH key, must be in OpenSSH format, RSA or DSA"
@@ -157,11 +157,11 @@ msgstr "Ungültiger SSH-Schlüssel"
 
 #: apply/forms.py:397
 msgid "Invalid RSA SSH key"
-msgstr "Ungültiger RSA SSH-Schlüssel"
+msgstr "Ungültiger SSH-Schlüssel (RSA)"
 
 #: apply/forms.py:402
 msgid "Invalid DSS SSH key"
-msgstr "Ungültiger DSS SSH-Schlüssel"
+msgstr "Ungültiger SSH-Schlüssel (DSS)"
 
 #: apply/forms.py:404
 #, python-format
@@ -174,11 +174,11 @@ msgstr "E-Mailadresse"
 
 #: apply/forms.py:413
 msgid "Email (verify)"
-msgstr "E-Mailadresse (bestätigen)"
+msgstr "E-Mailadresse (wiederholen)"
 
 #: apply/forms.py:421
 msgid "Mail fields do not match."
-msgstr "Die E-Mailadressen stimmen nicht über ein."
+msgstr "Die E-Mailadressen stimmen nicht überein."
 
 #: apply/forms.py:427 templates/clusters/cluster_nodes.html:37
 #: templates/instances/user_instances_json.html:45
@@ -228,13 +228,13 @@ msgstr ""
 #, python-format
 msgid "The following keys were skipped because they already exist:<br />%s"
 msgstr ""
-"Die folgenden Schlüssel wurden übersprungen, weil sie bereits vorhanden sind:"
-"<br />%s"
+"Der Import der folgenden Schlüssel wurde übersprungen, weil die Schlüssel "
+"bereits vorhanden sind:<br />%s"
 
 #: ganeti/fields/jsonfield/fields.py:31 ganeti/fields/jsonfield/fields.py:43
 #: ganeti/fields/jsonfield/fields.py:81
 msgid "Enter valid JSON"
-msgstr "Gültiges JSON eingeben"
+msgstr "Geben Sie gültiges JSON ein"
 
 #: ganeti/forms.py:36
 msgid "Type a username or group name"
@@ -242,7 +242,7 @@ msgstr "Geben Sie einen Benutzername oder einen Gruppennamen ein"
 
 #: ganeti/forms.py:91
 msgid "Network adapter model"
-msgstr "Netzwerkadapter Modell"
+msgstr "Netzwerkkarte/Modell"
 
 #: ganeti/forms.py:97
 msgid "Hard disk type"
@@ -250,7 +250,7 @@ msgstr "Festplattentyp"
 
 #: ganeti/forms.py:102
 msgid "Boot device"
-msgstr "Systemstart von Gerät"
+msgstr "Systemstart von"
 
 #: ganeti/forms.py:106
 msgid "CD-ROM Drive"
@@ -266,11 +266,11 @@ msgstr "Hardware-Uhr nutzt lokale Zeit anstatt von UTC"
 
 #: ganeti/forms.py:124
 msgid "Allow From"
-msgstr "Erlauben von"
+msgstr "Zugriff erlauben von"
 
 #: ganeti/forms.py:132
 msgid "Only HTTP URLs are allowed"
-msgstr "Nur HTTP-URLs sind erlaubt"
+msgstr "Es sind nur HTTP-URLs erlaubt"
 
 #: ganeti/forms.py:144
 #, python-format
@@ -289,15 +289,15 @@ msgstr "Zur Zeit ist eine Präfixlänge < %s nicht zulässig"
 #: ganeti/forms.py:173
 #, python-format
 msgid "%(address)s is not a valid address"
-msgstr "%(address)s ist keine gültige Adresse"
+msgstr "%(address)s ist keine gültige Netzwerkadresse"
 
 #: ganeti/models.py:300
 msgid "modifying"
-msgstr "Änderungen anwenden"
+msgstr "Änderungen werden übernommen"
 
 #: ganeti/models.py:1043
 msgid "creating"
-msgstr "erstellen"
+msgstr "wird erstellt"
 
 #: ganeti/utils.py:270
 msgid "Not allowed action"
@@ -325,19 +325,19 @@ msgstr "%(pref)s%(action)s von Instanz angefordert: '%(instance)s"
 
 #: ganeti/utils.py:326
 msgid "Could not send email"
-msgstr "E-Mail konnte nicht versendet werden"
+msgstr "Fehlschlag beim Versenden der E-Mail"
 
 #: ganeti/utils.py:328
 msgid "Mail sent"
-msgstr "E-Mail wurde versendet"
+msgstr "E-Mail versendet"
 
 #: ganeti/views/instances.py:77 ganeti/views/instances.py:170
 msgid ""
 "Permissions' violation. This action has been logged and our admins will be "
 "notified about it"
 msgstr ""
-"Rechteverletzung. Diese Aktion wurde protokolliert, unsere Administratoren "
-"wurden bereits darüber in Kenntnis gesetzt."
+"Richtlinienverletzung. Diese Aktion wurde protokolliert und unsere "
+"Administratoren wurden darüber in Kenntnis gesetzt."
 
 #: ganeti/views/instances.py:354
 msgid "Please wait... shutting-down"
@@ -357,8 +357,8 @@ msgid ""
 "Welcome! Please take some time to update <a href=\"%s\">your profile</a> and "
 "upload your SSH keys."
 msgstr ""
-"Willkommen! Bitte nehmen Sie sich Zeit, <a href=\"%s\">Ihr Profile</a> und "
-"Ihre SSH-Schlüssel zu bearbeiten."
+"Willkommen! Bitte nehmen Sie sich Zeit, <a href=\"%s\">Ihr Profile</a> zu "
+"vervollständigen und Ihre SSH-Schlüssel hochzuladen."
 
 #: notifications/forms.py:31
 msgid "Search for"
@@ -385,8 +385,8 @@ msgid ""
 "ViMastrators have been notified about this problem. We apologize for the "
 "inconvenience."
 msgstr ""
-"Die ViMastratoren wurden über das Problem benachrichtigt. Wir entschuldigen "
-"uns für die Unannehmlichkeit."
+"Ein Service Mitarbeiter wurden über dieses Problem informiert. Wir "
+"entschuldigen uns für die Unannehmlichkeit."
 
 #: templates/500.html:20
 msgid "Yeap this is a nice <strong>500</strong>!"
@@ -395,7 +395,7 @@ msgstr ""
 
 #: templates/apply/application_list.html:6
 msgid "Application list"
-msgstr "Anwendungsliste"
+msgstr "Antragsliste"
 
 #: templates/apply/application_list.html:22 templates/apply/apply.html:9
 #: templates/apply/review.html:14 templates/auditlog/auditlog.html:31
@@ -415,19 +415,19 @@ msgstr "Startseite"
 #: templates/apply/application_list.html:23 templates/apply/review.html:15
 #: templates/stats/statistics.html:103
 msgid "Instance Applications"
-msgstr "Anwendungen der Instanz"
+msgstr "Beantragte Instanzen"
 
 #: templates/apply/application_list.html:31
 msgid "Pending applications"
-msgstr "Wartende Anwendungen"
+msgstr "Wartende Anträge"
 
 #: templates/apply/application_list.html:33
 msgid "Show Active"
-msgstr "Aktive anzeigen"
+msgstr "aktive anzeigen"
 
 #: templates/apply/application_list.html:34
 msgid "Show Failed"
-msgstr "Fehlstarts anzeigen"
+msgstr "fehlgeschlagene anzeigen"
 
 #: templates/apply/application_list.html:40
 #: templates/apply/application_list.html:68
@@ -438,7 +438,7 @@ msgstr "Benutzer"
 #: templates/apply/application_list.html:42
 #: templates/apply/application_list.html:70
 msgid "vCPUs"
-msgstr "virtuelle CPUs"
+msgstr "vCPUs"
 
 #: templates/apply/application_list.html:44
 #: templates/apply/application_list.html:72 templates/apply/review.html:76
@@ -452,11 +452,11 @@ msgstr "Status"
 #: templates/apply/application_list.html:45
 #: templates/apply/application_list.html:73
 msgid "Filed"
-msgstr "Gemeldet"
+msgstr "beantragt am"
 
 #: templates/apply/application_list.html:63
 msgid "Completed applications"
-msgstr "Beendete Anwendungen"
+msgstr "Abgeschlossene Anträge"
 
 #: templates/apply/application_list.html:116
 #: templates/apply/application_list.html:135
@@ -483,7 +483,7 @@ msgstr "Alle"
 #: templates/apply/application_list.html:116
 #: templates/apply/application_list.html:135
 msgid "applications"
-msgstr "Anwendungen"
+msgstr "Anträge"
 
 #: templates/apply/apply.html:5
 msgid "Create new Virtual Machine"
@@ -501,7 +501,7 @@ msgstr "Eine neue Instanz beantragen"
 #: templates/apply/apply.html:48 templates/apply/review.html:73
 #: templates/apply/review.html.py:293
 msgid "Instance information"
-msgstr "Instanz Informationen"
+msgstr "Instanzdaten"
 
 #: templates/apply/apply.html:135
 msgid "Use/Comments"
@@ -514,8 +514,9 @@ msgid ""
 "comments."
 msgstr ""
 "Beschreiben Sie hier kurz den geplanten Verwendungszweck der virtuellen "
-"Maschine, dieser sollte die Parameterwahl weiter oben rechtfertigen. Falls "
-"nötig, können Sie hier auch weitere Kommentare hinterlegen."
+"Maschine. Die Parameterwahl weiter oben sollte zu dem hier erläuterten "
+"Verwendungszweck passen. Falls nötig, können Sie hier noch weitere "
+"Kommentare hinterlegen."
 
 #: templates/apply/apply.html:152 templates/apply/review.html:156
 #: templates/apply/review.html.py:359
@@ -529,10 +530,9 @@ msgid ""
 "\t\t\t\t\t\tconstituency, please select the appropriate organization.\n"
 "\t\t\t\t\t\tOtherwise, fill-in the admin contact information below."
 msgstr ""
-"Falls Sie/Ihre Organisation als Kunde hier hinterlegt ist,\n"
+"Falls Sie/Ihre Organisation als Kunde hier hinterlegt sind/ist,\n"
 "\t\t\t\t\t\twählen Sie bitte die entsprechende Organisation aus.\n"
-"\t\t\t\t\t\tAndernfalls hinterlassen Sie bitte Ihre Kontaktdaten weiter "
-"unten."
+"\t\t\t\t\t\tAndernfalls geben Sie bitte weiter unten Ihre Kontaktdaten an."
 
 #: templates/apply/apply.html:223
 msgid "Miscellaneous"
@@ -540,7 +540,7 @@ msgstr "Verschiedenes"
 
 #: templates/apply/apply.html:224
 msgid "We kindly remind you of the following:"
-msgstr "We weise freundlich auf folgendes hin:"
+msgstr "Wir möchten auf Folgendes hinweisen:"
 
 #: templates/apply/apply.html:226
 msgid ""
@@ -564,21 +564,20 @@ msgstr ""
 "\t\t\t\t\t\t<li>\n"
 "\t\t\t\t\t\t\tWir behalten uns das Recht vor, Ihre VM temporär außer Betrieb "
 "zu\n"
-"\t\t\t\t\t\t\tsetzen, falls sie Fehlfunktionen in unserer Infrastruktur "
+"\t\t\t\t\t\t\tsetzen, falls diese Fehlfunktionen in unserer Infrastruktur "
 "verursacht\n"
 "\t\t\t\t\t\t</li>\n"
 "\t\t\t\t\t\t"
 
 #: templates/apply/apply.html:243
 msgid "You must accept the terms of service before continuing."
-msgstr ""
-"Sie müssen unsere Nutzungsbedingungen akzeptieren, before Sie fortfahren "
-"können."
+msgstr "Sie müssen unsere Nutzungsbedingungen akzeptieren, um fortzufahren."
 
 #: templates/apply/apply.html:247
 msgid "I have read the above and accept them, along with the"
 msgstr ""
-"Ich habe oben stehendes gelesen und akzeptiere das Gelesene, zusammen mit"
+"Ich habe die oben stehenden Informationen zur Kenntnis genommen und "
+"akzeptiere diese sowie auch die"
 
 #: templates/apply/apply.html:247
 msgid "Terms of Service"
@@ -587,11 +586,11 @@ msgstr "Nutzungsbedingungen"
 #: templates/apply/apply.html:253
 #: templates/instances/instance_actions.html:354
 msgid "Apply"
-msgstr "Antrag"
+msgstr "Beantragen"
 
 #: templates/apply/review.html:11 templates/apply/review.html.py:65
 msgid "Review application"
-msgstr "Antrag überprüfen"
+msgstr "Antrag prüfen"
 
 #: templates/apply/review.html:54 templates/auditlog/auditlog.html:67
 #: templates/jobs/jobs.html:64
@@ -615,7 +614,7 @@ msgstr "von"
 
 #: templates/apply/review.html:66
 msgid "Submitted"
-msgstr "Gemeldet"
+msgstr "beantragt am"
 
 #: templates/apply/review.html:173 templates/apply/review.html.py:374
 msgid "Placement"
@@ -624,7 +623,7 @@ msgstr "Platzierung"
 # To inconcrete: network placement(?) -> data center selection? Ganeti node selection(?)
 #: templates/apply/review.html:176
 msgid "The user has requested explicit network placement on"
-msgstr "Der Benutzer hat eine explizite Netzwerk-Platzierung angefragt"
+msgstr "Der Benutzer fragt eine explizite Platzierung im Netzwerk an"
 
 #: templates/apply/review.html:247 templates/apply/review.html.py:380
 msgid "Job ID"
@@ -648,12 +647,12 @@ msgstr "Die Instanz wurde platziert auf"
 
 #: templates/apply/review.html:407
 msgid "Pending Instance Applications"
-msgstr "Auf Bearbeitung wartende Instanz-Anträge"
+msgstr "Wartende Instanzanträge"
 
 #: templates/auditlog/auditlog.html:28 templates/auditlog/auditlog.html:32
 #: templates/auditlog/auditlog.html:39 templates/base.html:247
 msgid "Audit Log"
-msgstr "Prüfprotokoll"
+msgstr "Verlaufsprotokoll"
 
 #: templates/auditlog/auditlog.html:28 templates/auditlog/auditlog.html:32
 #: templates/auditlog/auditlog.html:39 templates/base.html:247
@@ -710,7 +709,7 @@ msgstr "Abmelden"
 #: templates/base.html:208 templates/base.html.py:222 templates/base.html:258
 #: templates/stats/statistics.html:326
 msgid "Applications"
-msgstr "Anwendungen"
+msgstr "Anträge"
 
 #: templates/base.html:211 templates/base.html.py:227 templates/base.html:277
 msgid "Admin"
@@ -724,7 +723,7 @@ msgstr "Cache leeren"
 #: templates/notifications/create.html:13
 #: templates/notifications/create_body.html:5
 msgid "Send Mail"
-msgstr "E-Mail versenden"
+msgstr "E-Mail senden"
 
 #: templates/base.html:237 templates/clusters/clusters.html:8
 #: templates/clusters/clusters.html:42
@@ -917,7 +916,7 @@ msgstr "Isolieren"
 
 #: templates/instances/instance.html:238
 msgid "Application"
-msgstr "Anwendung"
+msgstr "Antrag"
 
 #: templates/instances/instance.html:258 templates/instances/instance.html:261
 msgid "No data available yet..."
@@ -945,7 +944,7 @@ msgstr "Aktionen"
 
 #: templates/instances/instance.html:405
 msgid "Instance Tags"
-msgstr "Instanz-Tags"
+msgstr "Instanzmarker"
 
 #: templates/instances/instance_actions.html:208
 msgid "Shutdown"
@@ -981,7 +980,7 @@ msgstr "Aktionen für diese Instanz wurden vom Adminstrator deaktiviert"
 
 #: templates/instances/instance_actions.html:295
 msgid "Reinstall Instance"
-msgstr "Instanz neu installieren"
+msgstr "Neuinstallation"
 
 #: templates/instances/instance_actions.html:299
 #: templates/instances/instance_actions.html:328
@@ -1003,7 +1002,7 @@ msgid ""
 "\t\t\t\t"
 msgstr ""
 "\n"
-"\t\t\t\tSie veranlassen gerade eine Neu-Installation der Instanz <strong>"
+"\t\t\t\tSie veranlassen gerade eine Neu-Installation Ihrer Instanz <strong>"
 "%(instance)s</strong>.\n"
 "\t\t\t\t<br>Dieser Vorgang <strong>löscht alle Daten</strong> und setzt die "
 "Instanz in den Ursprungszustand zurück. Alle Daten gehen dabei verloren.\n"
@@ -1021,7 +1020,7 @@ msgstr "E-Mail Link"
 
 #: templates/instances/instance_actions.html:324
 msgid "Destroy Instance"
-msgstr "Instanz löschen"
+msgstr "Lösche Instanz"
 
 #: templates/instances/instance_actions.html:330
 #, python-format
@@ -1035,10 +1034,10 @@ msgid ""
 "visit the activation link, your instance will be destroyed.\n"
 "\t\t\t\t"
 msgstr ""
-"Sie veranlassen gerade das Löschen der Instanz <strong>%(instance)s</"
+"Sie veranlassen gerade das Löschen Ihrer Instanz <strong>%(instance)s</"
 "strong>.\n"
-"\t\t\t\tDieser Vorgang wird <strong>die Instanz löschen</strong>. Alle Daten "
-"gehen dabei verloren.\n"
+"\t\t\t\tDieser Vorgang wird <strong>die Instanz endgültig vernichten</"
+"strong>. Alle Daten gehen dabei verloren.\n"
 "\t\t\t\t<br>Ihre Instanz wird jedoch nicht sofort gelöscht.<br>\n"
 "\t\t\t\tSie erhalten zunächst eine E-Mail mit einem Aktivierungslink. Erst "
 "wenn Sie diesen Aktivierungslink aufgerufen haben, startet für die Instanz "
@@ -1059,7 +1058,7 @@ msgid ""
 "\t\t\t\t"
 msgstr ""
 "Sie können die Instanz <strong>%(instance)s</strong> nicht umbenennen.\n"
-"\t\t\t\tNur Instanzen, die ausgeschaltet sind, können umbenannt werden.\n"
+"\t\t\t\tNur ausgeschaltete Instanzen können umbenannt werden.\n"
 "\t\t\t\tEine Instanz kann über 'Herunterfahren' auf dieser Schaltfläche "
 "ausgeschaltet werden.\n"
 "\t\t\t\t"
@@ -1078,7 +1077,7 @@ msgstr ""
 
 #: templates/instances/rename_instance.html:32
 msgid "Instance Rename"
-msgstr "Umbenennung von Instanz"
+msgstr "Instanz umbenennen"
 
 #: templates/instances/rename_instance.html:33
 #, python-format
@@ -1092,13 +1091,14 @@ msgid ""
 "an instance make sure that it is turned off</div>\n"
 "\t"
 msgstr ""
-"Sie veranlassen gerade das Umbenennen der Instanz <strong>%(instance)s</"
+"Sie veranlassen gerade das Umbenennen Ihrer Instanz <strong>%(instance)s</"
 "strong>.\n"
 "\tSobald Sie einen neuen Hostnamen eingegeben haben und auf Anwenden "
-"geklickt haben, erhalte Sie eine E-Mail mit einem Aktivierungslink. Die "
-"Instanz wird nur umbenannt, wenn Sie diesen Aktivierungslink öffnen.\n"
-"\t<div class=\"alert alert-warning\"><strong>Wichtig:</strong> Für das "
-"Umbenennen stellen Sie sicher, dass die Instanz ausgeschaltet ist.</div>\n"
+"klicken, erhalten Sie eine E-Mail mit einem Aktivierungslink. Die Instanz "
+"wird nur umbenannt, wenn Sie diesen Aktivierungslink öffnen.\n"
+"\t<div class=\"alert alert-warning\"><strong>Wichtig:</strong> Damit die "
+"Instanz erfolgreich umbenannt werden kann, stellen Sie sicher, dass die "
+"Instanz ausgeschaltet ist.</div>\n"
 "\t"
 
 #: templates/instances/user_instances_json.html:29
@@ -1150,8 +1150,8 @@ msgstr ""
 #: templates/instances/verify_action.html:45
 msgid "Once initiated, this process cannot be undone or stop!"
 msgstr ""
-"Wenn der Vorgang gestartet wurde, kann er nicht mehr rückgängig oder "
-"angehalten werden!"
+"Sobald der Vorgang gestartet wurde, kann er nicht mehr rückgängig gemacht "
+"oder angehalten werden!"
 
 #: templates/instances/verify_action.html:49
 #: templates/users/pass_change.html:59
@@ -1160,8 +1160,7 @@ msgstr "Wichtig"
 
 #: templates/instances/verify_action.html:49
 msgid "To rename an instance make sure that it is turned off"
-msgstr ""
-"Um eine Instanz umzubenennen, stellen Sie sicher, dass sie ausgeschaltet ist."
+msgstr "Eine Instanz muss zum Umbenennen ausgeschaltet sein."
 
 #: templates/instances/verify_action.html:55
 #: templates/instances/verify_action.html:61
@@ -1183,12 +1182,12 @@ msgid ""
 "on instance <strong>%(instance)s</strong> is no longer available. It has "
 "either expired or it is already performed."
 msgstr ""
-"auf Instanz <strong>%(instance)s</strong> ist nicht länger möglich. Die "
-"Aktion ist entweder nicht mehr gültig oder bereits durchgeführt."
+"auf Instanz <strong>%(instance)s</strong> ist nicht mehr möglich. Die Aktion "
+"ist entweder nicht mehr gültig oder bereits durchgeführt."
 
 #: templates/instances/verify_action.html:65
 msgid "Apply for a new request via the instance details page."
-msgstr "Erstellen Sie einen neuen Auftrag auf der Detailseite der Instanz."
+msgstr "Beantragen Sie eine neue Aktion in der Instanzdetailübersicht."
 
 #: templates/instances/verify_action.html:71
 msgid "You are about to change your email to"
@@ -1200,7 +1199,7 @@ msgstr "E-Mailadresse ändern"
 
 #: templates/jobs/jobs.html:43
 msgid "Clusters Jobs"
-msgstr "Cluster Aufträge"
+msgstr "Cluster-Aufträge"
 
 #: templates/jobs/jobs.html:51
 msgid "Opcode Id"
@@ -1216,7 +1215,7 @@ msgstr "Senden"
 
 #: templates/notifications/create_script.html:10
 msgid "Type name(s) from user, group, instance, cluster"
-msgstr "Geben Sie Name(n) von Benutzer, Gruppe, Instanz, Cluster ein"
+msgstr "Geben Sie Name(n) von Benutzer, Gruppe, Instanz und Cluster ein"
 
 #: templates/registration/activate.html:3
 #: templates/registration/activation_complete.html:3
@@ -1238,11 +1237,11 @@ msgstr "Der Benutzer wurde wahrscheinlich bereits aktiviert."
 
 #: templates/registration/activation_complete.html:19
 msgid "The user will be notified about his/her account activation"
-msgstr "Der Benutzer wird über die Kontoaktivierung benachrichtigt."
+msgstr "Der Benutzer wird über die Kontoaktivierung in Kenntnis gesetzt."
 
 #: templates/registration/activation_complete.txt:3
 msgid "Your account with username  "
-msgstr "Ihre Konto mit Benutzername"
+msgstr "Ihr Konto mit Benutzername"
 
 #: templates/registration/activation_complete.txt:3
 msgid "has been activated."
@@ -1307,7 +1306,7 @@ msgid ""
 "An email has been sent containing instructions on resetting your password. "
 "Please check your inbox."
 msgstr ""
-"Eine Anleitung für das Zurücksetzen Ihres Kennwort wurde per E-Mail "
+"Eine Anleitung für das Zurücksetzen Ihres Kennworts wurde per E-Mail "
 "verschickt. Bitte überprüfen Sie Ihr E-Mailpostfach."
 
 #: templates/registration/registration_complete.html:3
@@ -1330,7 +1329,7 @@ msgstr ""
 
 #: templates/registration/registration_complete.html:21
 msgid "Back to"
-msgstr "Zurück zu"
+msgstr "Zurück zur"
 
 #: templates/registration/registration_complete.html:21
 msgid "login"
@@ -1338,11 +1337,11 @@ msgstr "Anmeldung"
 
 #: templates/registration/registration_complete.html:21
 msgid "page"
-msgstr "Seite"
+msgstr "."
 
 #: templates/registration/registration_form.html:23
 msgid "Register new user"
-msgstr "Neuen Benutzer registrieren"
+msgstr "Benutzer registrieren"
 
 #: templates/stats/instance_owners.html:29
 #: templates/stats/instance_owners.html:35
@@ -1352,20 +1351,19 @@ msgstr "Instanzbesitzer"
 
 #: templates/stats/statistics.html:28
 msgid "Instance Creation History"
-msgstr "FIXME: Historie über das Erstellen neuer Instanzen"
+msgstr "Rückblick auf erstellte Instanzen"
 
 #: templates/stats/statistics.html:32 templates/stats/statistics.html.py:85
 msgid "Click and drag in the plot area to zoom in"
-msgstr "Klicken und ziehen Sie in der Grafik um die Abbildung zu vergrößern"
+msgstr "Klicken und ziehen Sie in der Grafik um hinein zu zoomen"
 
 #: templates/stats/statistics.html:33 templates/stats/statistics.html.py:86
 msgid "Drag your finger over the plot to zoom in"
-msgstr ""
-"Bewegen Sie Ihren Finger  über die Grafik um die Abbildung zu vergrößern."
+msgstr "Bewegen Sie Ihren Finger über die Grafik um hinein zu zoomen"
 
 #: templates/stats/statistics.html:39
 msgid "Instance Creation Dates"
-msgstr "Instanz Erstelldaten"
+msgstr "Erstelldaten von Instanzen"
 
 #: templates/stats/statistics.html:45
 msgid "Number of Instances"
@@ -1381,15 +1379,15 @@ msgstr "Bis jetzt"
 
 #: templates/stats/statistics.html:81
 msgid "Instance Applications History"
-msgstr "FIXME: Historie der Instanzanwendungen"
+msgstr "Rückblick auf Instanzanträge"
 
 #: templates/stats/statistics.html:92
 msgid "Instance Application Dates"
-msgstr "FIXME: Instanz Anwendungsdaten"
+msgstr "Antragsdaten von Instanzen"
 
 #: templates/stats/statistics.html:98
 msgid "Number of Applications"
-msgstr "Anzahl der Anwendungen"
+msgstr "Anzahl der Anträge"
 
 #: templates/stats/statistics.html:109
 msgid "Submitted:"
@@ -1426,11 +1424,11 @@ msgstr "Instanzen"
 
 #: templates/stats/statistics.html:323
 msgid "Created "
-msgstr "Erstellt"
+msgstr "Erstellt "
 
 #: templates/stats/statistics.html:328
 msgid "Submitted "
-msgstr "Beantragt"
+msgstr "Beantragt "
 
 #: templates/stats/statistics.html:331
 msgid "Users"
@@ -1472,7 +1470,7 @@ msgstr "Gesamt"
 #: templates/stats/statistics.html:376 templates/stats/statistics.html:381
 #: templates/stats/statistics.html:386
 msgid "Avg."
-msgstr "Durchschnittlich"
+msgstr "Durchschnitt"
 
 #: templates/tagging/itags.html:106
 msgid "Warning"
@@ -1495,8 +1493,8 @@ msgid ""
 "ganetimgr service we monitor usage of the web management interface.\n"
 msgstr ""
 "\n"
-"Um die Echtheit von Nutzerkonten im ganetimgr Web-Dienstsicherzustellen, "
-"wird die Nutzungsweise der Verwaltungsoberfläche überwacht.\n"
+"Um die Echtheit von Nutzerkonten in ganetimgr sicherzustellen, wird die "
+"Nutzungsweise der Verwaltungsoberfläche überwacht.\n"
 
 #: templates/users/emails/idle_account.txt:8
 #, python-format
@@ -1527,7 +1525,7 @@ msgid ""
 "Please do this as soon as possible.\n"
 msgstr ""
 "\n"
-"Bitte machen dies sobald wie möglich.\n"
+"Bitte führen Sie diese Echtheitsbestätigung sobald wie möglich durch.\n"
 
 #: templates/users/emails/idle_account.txt:23
 msgid ""
@@ -1537,7 +1535,7 @@ msgid ""
 msgstr ""
 "\n"
 "Mit freundlichen Grüßen,\n"
-"Das ganetimgr Management.\n"
+"Das ganetimgr Management-Team.\n"
 
 #: templates/users/emails/pass_change_notify_mail.txt:2
 msgid ""
@@ -1557,7 +1555,7 @@ msgstr ""
 "\n"
 "Wir möchten Sie darüber in Kenntnis setzen, dass das Kennwort für Ihr "
 "Zugangskonto %(user.username)s\n"
-"des ViMa-Dienstes erfolgreich geändert wurde.\n"
+"für ganetimgr erfolgreich geändert wurde.\n"
 
 #: templates/users/emails/pass_change_notify_mail.txt:10
 msgid ""
@@ -1567,11 +1565,11 @@ msgid ""
 msgstr ""
 "\n"
 "Falls die Kennwortänderungen nicht von Ihnen selbst vorgenommen wurde,\n"
-"informieren Sie bitte das GRNET Helpdesk.\n"
+"informieren Sie bitte unser Helpdesk.\n"
 
 #: templates/users/idle_accounts.html:67
 msgid "User Idle Accounts"
-msgstr "Ungenutzte Nutzerkonten"
+msgstr "Ungenutzte Konten"
 
 #: templates/users/idle_accounts.html:72 templates/users/user_info.html:309
 #: templates/users/user_info.html.py:317
@@ -1590,7 +1588,7 @@ msgstr "E-Mail"
 
 #: templates/users/idle_accounts.html:75
 msgid "Last Login"
-msgstr "Zuletzt angemeldet"
+msgstr "Letzte Anmeldung"
 
 #: templates/users/login.html:8 templates/users/login.html.py:67
 #: templates/users/login.html:96
@@ -1615,16 +1613,16 @@ msgid ""
 "\t\t\t\t\t\t\t\t\t\t"
 msgstr ""
 "\n"
-"\t\t\t\t\t\t\t\t\t\t\t<p>Willkommen auf GRNET's ViMa Dienst.</p>\n"
+"\t\t\t\t\t\t\t\t\t\t\t<p>Willkommen bei ganetimgr.</p>\n"
 "\t\t\t\t\t\t\t\t\t\t\t<p>Falls Sie diese Seite das erste Mal besuchen, "
-"nehmen Sie sich etwas Zeit, um die Service-Beschreibungen von ViMa zu lesen. "
-"Die Service-Beschreibungenkönnen Sie über den Hyperlink am Ende dieser Seite "
-"aufrufen. Danach können Sie mit der Registrierung eines Benutzerkontos "
+"nehmen Sie sich etwas Zeit, um die Service-Beschreibungen von ganetimgr zu "
+"lesen. Die Service-Beschreibung können Sie über den Hyperlink am Ende dieser "
+"Seite aufrufen. Danach können Sie mit der Registrierung eines Benutzerkontos "
 "fortfahren.</p>\n"
 "\t\t\t\t\t\t\t\t\t\t\t<p>Falls Sie bereits ein Benutzerkonto haben, können "
 "Sie sich über den Anmeldedialog rechts einloggen.</p>\n"
-"\t\t\t\t\t\t\t\t\t\t\t<p>Bei Fragen und Problemen steht Ihnen das GRNET "
-"Helpdesk jederzeit zur Verfügung.</p>\n"
+"\t\t\t\t\t\t\t\t\t\t\t<p>Bei Fragen und Problemen steht Ihnen unser Helpdesk "
+"jederzeit zur Verfügung.</p>\n"
 "\t\t\t\t\t\t\t\t\t\t"
 
 #: templates/users/login.html:70
@@ -1645,7 +1643,7 @@ msgid ""
 "There is a pending mail change request on your behalf. Check your e-mails "
 "for an activation link."
 msgstr ""
-"Sie haben beantragt, Ihre E-Mailadresse zu ändern. Wir haben Ihnen eine E-"
+"Sie haben die Änderung Ihrer E-Mailadresse beantragt. Wir haben Ihnen eine E-"
 "Mail mit Aktivierungslink an die neue Adresse geschickt. Bitte prüfen Sie "
 "Ihren Posteingang."
 
@@ -1654,7 +1652,7 @@ msgid ""
 "enter your new mail address twice so we can verify you typed it in correctly."
 msgstr ""
 "Geben Sie Ihre neue E-Mailadresse zweimal ein, so dass wir sicherstellen "
-"können, dass die Adresse korrekt eingegeben wurde."
+"können, dass die Adresse keine Tippfehler enthält."
 
 #: templates/users/mail_change.html:67
 msgid ""
@@ -1705,9 +1703,9 @@ msgid ""
 "please enter your old password, for security's sake, and then enter your new "
 "password twice so we can verify you typed it in correctly."
 msgstr ""
-"Zu Ihrer Sicherheit geben Sie bitte ihr altes Kennwort ein. Danach geben Sie "
-"Ihr neues Kennwort zweimal ein, so dass wir sicherstellen können, dass Sie "
-"es korrekt eingegeben haben."
+"Zu Ihrer Sicherheit geben Sie bitte Ihr altes Kennwort ein. Danach geben Sie "
+"Ihr neues Kennwort zweimal ein, so dass wir sicherstellen können, dass es "
+"keine Tippfehler enthält."
 
 #: templates/users/pass_change.html:59
 msgid "Changing your password will log you out"
@@ -1748,12 +1746,12 @@ msgstr "Marker"
 #: templates/users/user_info.html:277 templates/users/user_info.html.py:287
 #: templates/users/user_info.html:299
 msgid "User Information"
-msgstr "Benutzerinformation"
+msgstr "Benutzerinformationwn"
 
 #: templates/users/user_info.html:280 templates/users/user_info.html.py:289
 #: templates/users/user_info.html:302
 msgid "Group Information"
-msgstr "Gruppeninformation"
+msgstr "Gruppeninformationen"
 
 #: templates/users/user_info.html:315
 msgid "Group Name"
@@ -1771,9 +1769,9 @@ msgid ""
 "with or without a trailing comment."
 msgstr ""
 "Laden Sie Ihre öffentlichen SSH-Schlüssel hoch, so dass diese automatisch in "
-"neu erstellten Instanzen hinterlegt werden. Schlüssel müssen im openSSH-"
-"Format (RSA oder DSA) bereitgestellt werden (mit oder ohne Kommentareintrag "
-"am Ende des Schlüssel)."
+"neu erstellten Instanzen hinterlegt werden können. Schlüssel müssen im "
+"openSSH-Format (RSA oder DSA) bereitgestellt werden (mit oder ohne "
+"Kommentareintrag am Ende des Schlüssel)."
 
 #: templates/users/user_keys.html:95
 msgid "Delete"
@@ -1786,17 +1784,3 @@ msgstr "Neuen Schlüssel hinzufügen"
 #: templates/users/user_keys.html:116
 msgid "Add key"
 msgstr "Schlüssel hinzufügen"
-
-#, fuzzy
-#~ msgid "Please correct the error below."
-#~ msgid_plural "Please correct the errors below."
-#~ msgstr[0] ""
-#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
-#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
-#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
-#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
-#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
-#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
-#~ msgstr[1] ""
-#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
-#~ "#-#-#-#-#  django.pot (PACKAGE VERSION)  #-#-#-#-#\n"
