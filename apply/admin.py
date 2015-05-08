@@ -48,7 +48,7 @@ class ApplicationAdmin(admin.ModelAdmin):
     list_editable = ["organization"]
     readonly_fields = ["job_id", "backend_message"]
     ordering = ["-filed", "hostname"]
-    actions = make_fast_create_actions()
+    actions = 'make_fast_create_actions'
     fieldsets = [
         ('Instance Information', {'fields': ('hostname', 'memory', 'disk_size',
                                              'vcpus', 'operating_system',
