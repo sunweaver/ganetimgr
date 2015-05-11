@@ -6,7 +6,7 @@ We test (and use) ganetimgr on the latest stable version of Debian. We also pref
 
 This guide documents how to install ganetimgr with the following software:
 
-- Debian Stable, the base OS
+- Debian Jessie, the base OS
 - gunicorn with gevent, it runs the Django project
 - Nginx, the web server that serves the static content and proxies to gunicorn
 - Mysql, the database backend
@@ -27,6 +27,7 @@ Update and install the required packages::
 Beanstalkd
 ----------
 
+.. TODO::
 Edit ``/etc/default/beanstalkd`` and uncomment the following line::
 
     START=yes
@@ -79,7 +80,7 @@ There are a lot of parts of ganetimgr that are customizable. Most of them are ch
 Below are explanations for most of the settings:
 
 - Fill the default ``DATABASES`` dictionary with the credentials and info about the database you created before.
-- Set ``CACHE_BACKEND`` to "redis_cache.cache://127.0.0.1:6379/?timeout=1500".
+- Uncomment the appropriate ``CACHES`` lines depending on the preffered cache choice (redis, memcached)
 - Set ``STATIC_URL`` to the relative URL where Django expects the static resources (e.g. '/static/')
 - Set ``STATIC_ROOT`` to the file path of the collected static resources (e.g. '/srv/www/ganetimgr/static/')
 - ``TEMPLATE_DIRS`` should contain the project's template folder (e.g. '/srv/www/ganetimgr/static/' )
@@ -214,6 +215,7 @@ Run the watcher.py::
 
 Gunicorn Setup
 --------------
+.. TODO::
 
 Create the gunicorn configuration file (/etc/gunicorn.d/ganetimgr)::
 
@@ -254,7 +256,7 @@ Create (or edit) an nginx vhost with the following::
 
 Restart nginx::
 
-    service nginx restart
+    systemctl restart nginx
 
 End
 ---
