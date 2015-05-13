@@ -11,6 +11,7 @@
 {% endblock %}
 
 {% block content %}
+{% if JAVA_VNC_ENABLED %}
 <div class="span11 main-content">
 
     <div class="row-fluid">
@@ -27,4 +28,5 @@
 </div>
 </div>
 </div>
+{% endif %}
 {% endblock %}

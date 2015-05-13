@@ -319,6 +319,9 @@ WHITELIST_IP_MAX_SUBNET_V6 = 64
 FEED_URL=None
 
 
+# Choose whether to support Java based console or not.
+JAVA_VNC_ENABLED = True
+
 # Choose whether to support websockets console or not.
 WEBSOCK_VNC_ENABLED = False
 # This is meant to be used with twistednovncauthproxy

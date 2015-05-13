@@ -25,6 +25,7 @@ def settings_vars(context):
             'VERSION': settings.SW_VERSION,
             'FEED_URL': settings.FEED_URL,
             'WEBSOCK_VNC_ENABLED': settings.WEBSOCK_VNC_ENABLED,
+            'JAVA_VNC_ENABLED': settings.JAVA_VNC_ENABLED,
             'BRANDING': settings.BRANDING,
             'FLATPAGES':settings.FLATPAGES,
             }

@@ -448,7 +448,7 @@ $(document).ready( function(){
                     			 lock = '<a href="#" data-toggle="tooltip" title="Shutdown"  data-cluster="'+full.clusterslug+'" data-instance="'+full.name+'" class="stopbuttonpre btn btn-small btn-danger"><i class="icon-off"></i></a> ';
                     			 lock += '<a href="#" data-toggle="tooltip" title="Reboot" data-cluster="'+full.clusterslug+'" data-instance="'+full.name+'" class="rebootbuttonpre btn btn-small btn-warning"><i class="icon-refresh"></i></a> ';
 
-                                        consoleurl = "{% if WEBSOCK_VNC_ENABLED %}{% url 'instance-novnc' 'cluster_placeholder' 'instance_placeholder' %}{% else %}{% url 'instance-vnc' 'cluster_placeholder' 'instance_placeholder' %}{% endif %}".replace('cluster_placeholder', full.clusterslug.toString()).replace('instance_placeholder', full.name.toString());
+                                        consoleurl = "{% if WEBSOCK_VNC_ENABLED %}{% url 'instance-novnc' 'cluster_placeholder' 'instance_placeholder' %}{% elif JAVA_VNC_ENABLED %}{% url 'instance-vnc' 'cluster_placeholder' 'instance_placeholder' %}{% endif %}".replace('cluster_placeholder', full.clusterslug.toString()).replace('instance_placeholder', full.name.toString());
                     			 lock += '<a href="'+consoleurl+'" data-toggle="tooltip" title="Console" class="consolebutton btn btn-small btn-inverse"><i class="icon-terminal"></i></a> ';
                     			}
                     			if (full.status == 'Stopped'){
